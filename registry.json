@@ -2,8 +2,75 @@
   "schema_version": "1.0.0",
   "repository": "PRIDA-TAKON/debim-specs-th",
   "description": "คลังรายการประกอบแบบวัสดุก่อสร้างภาษาไทยแบบเปิด (Open Thai Declarative Architectural Specifications)",
-  "total_packages": 30,
+  "total_packages": 63,
   "packages": [
+    {
+      "id": "CAST_IN_PLACE_CONCRETE_ASA",
+      "name": "งานคอนกรีตเทในที่ (Cast-in-Place Concrete - ASA Standard)",
+      "slug": "concrete-cast-in-place-asa",
+      "division": "03-concrete",
+      "category": "concrete_cast_in_place",
+      "manufacturer": "มาตรฐานสมาคมสถาปนิกสยามฯ (ASA) และผู้ผลิตที่ได้รับมาตรฐาน มอก.",
+      "masterformat": "03 30 00 - Cast-in-Place Concrete",
+      "warranty_years": 1,
+      "standards": {
+        "asa": "มาตรฐานรายการประกอบแบบก่อสร้าง สมาคมสถาปนิกสยามฯ 2552 หมวด 03 30 00",
+        "tis": "มอก. 15 เล่ม 1-2547 (ปูนซีเมนต์ปอร์ตแลนด์), มอก. 213-2520 (คอนกรีตผสมเสร็จ), มอก. 409-2525 (การทดสอบความต้านแรงอัด), มอก. 566-2528 (มวลผสมคอนกรีต)",
+        "dpt": "มาตรฐาน วสท. 1014-46, ASTM C143 (Slump Test), ASTM C42 (Drilled Cores)"
+      },
+      "package_path": "packages/03-concrete/concrete-cast-in-place-asa",
+      "spec_url": "https://raw.githubusercontent.com/PRIDA-TAKON/debim-specs-th/main/packages/03-concrete/concrete-cast-in-place-asa/spec.yaml"
+    },
+    {
+      "id": "CONCRETE_CURING_ASA",
+      "name": "การบ่มคอนกรีต (Concrete Curing - ASA Standard)",
+      "slug": "concrete-curing-asa",
+      "division": "03-concrete",
+      "category": "concrete_curing",
+      "manufacturer": "มาตรฐานสมาคมสถาปนิกสยามฯ (ASA)",
+      "masterformat": "03 39 00 - Concrete Curing",
+      "warranty_years": 1,
+      "standards": {
+        "asa": "มาตรฐานรายการประกอบแบบก่อสร้าง สมาคมสถาปนิกสยามฯ 2552 หมวด 03 39 00",
+        "tis": "มอก. 15 เล่ม 1-2547 (ปูนซีเมนต์ปอร์ตแลนด์)",
+        "dpt": "มาตรฐาน วสท. 1014-46, ACI 308R"
+      },
+      "package_path": "packages/03-concrete/concrete-curing-asa",
+      "spec_url": "https://raw.githubusercontent.com/PRIDA-TAKON/debim-specs-th/main/packages/03-concrete/concrete-curing-asa/spec.yaml"
+    },
+    {
+      "id": "CONCRETE_FORMING_ASA",
+      "name": "งานไม้แบบและแบบหล่อคอนกรีต (Concrete Forming - ASA Standard)",
+      "slug": "concrete-forming-asa",
+      "division": "03-concrete",
+      "category": "concrete_forming",
+      "manufacturer": "มาตรฐานสมาคมสถาปนิกสยามฯ (ASA) และผู้ผลิตที่ได้รับมาตรฐานสากล",
+      "masterformat": "03 11 00 - Concrete Forming",
+      "warranty_years": 1,
+      "standards": {
+        "asa": "มาตรฐานรายการประกอบแบบก่อสร้าง สมาคมสถาปนิกสยามฯ 2552 หมวด 03 11 00",
+        "tis": "มอก. 178-2549 (ไม้อัดสำหรับงานทั่วไปและงานแบบหล่อ)",
+        "dpt": "มาตรฐานสำหรับอาคารคอนกรีตเสริมเหล็ก วสท. 1014-46"
+      },
+      "package_path": "packages/03-concrete/concrete-forming-asa",
+      "spec_url": "https://raw.githubusercontent.com/PRIDA-TAKON/debim-specs-th/main/packages/03-concrete/concrete-forming-asa/spec.yaml"
+    },
+    {
+      "id": "CONCRETE_LEAN_140KSC",
+      "name": "คอนกรีตหยาบรองก้นหลุม 140 ksc (Lean Concrete Sub-base 140 ksc Cylinder)",
+      "slug": "concrete-lean-140ksc",
+      "division": "03-concrete",
+      "category": "concrete_subbase",
+      "manufacturer": "General Ready-Mix Batching Plants",
+      "masterformat": "03 30 00 - Cast-in-Place Concrete",
+      "warranty_years": 5,
+      "standards": {
+        "tis": "มอก. 213-2552 (คอนกรีตผสมเสร็จ)",
+        "dpt": "มยผ. 1101-52"
+      },
+      "package_path": "packages/03-concrete/concrete-lean-140ksc",
+      "spec_url": "https://raw.githubusercontent.com/PRIDA-TAKON/debim-specs-th/main/packages/03-concrete/concrete-lean-140ksc/spec.yaml"
+    },
     {
       "id": "CONCRETE_240KSC",
       "name": "คอนกรีตผสมเสร็จกำลังอัด 240 ksc (Ready-Mixed Concrete 240 ksc Cylinder)",
@@ -38,20 +105,21 @@
       "spec_url": "https://raw.githubusercontent.com/PRIDA-TAKON/debim-specs-th/main/packages/03-concrete/concrete-readymix-280ksc/spec.yaml"
     },
     {
-      "id": "CONCRETE_LEAN_140KSC",
-      "name": "คอนกรีตหยาบรองก้นหลุม 140 ksc (Lean Concrete Sub-base 140 ksc Cylinder)",
-      "slug": "concrete-lean-140ksc",
+      "id": "CONCRETE_REINFORCING_ASA",
+      "name": "งานเหล็กเสริมคอนกรีต (Concrete Reinforcing - ASA Standard)",
+      "slug": "concrete-reinforcing-asa",
       "division": "03-concrete",
-      "category": "concrete_subbase",
-      "manufacturer": "General Ready-Mix Batching Plants",
-      "masterformat": "03 30 00 - Cast-in-Place Concrete",
-      "warranty_years": 5,
+      "category": "concrete_reinforcing",
+      "manufacturer": "มาตรฐานสมาคมสถาปนิกสยามฯ (ASA) และผู้ผลิตที่ได้รับมาตรฐาน มอก.",
+      "masterformat": "03 20 00 - Concrete Reinforcing",
+      "warranty_years": 1,
       "standards": {
-        "tis": "มอก. 213-2552 (คอนกรีตผสมเสร็จ)",
-        "dpt": "มยผ. 1101-52"
+        "asa": "มาตรฐานรายการประกอบแบบก่อสร้าง สมาคมสถาปนิกสยามฯ 2552 หมวด 03 20 00",
+        "tis": "มอก. 20-2543 (เหล็กเส้นกลม), มอก. 24-2548 (เหล็กข้ออ้อย), มอก. 138-2535 (ลวดผูกเหล็ก)",
+        "dpt": "มาตรฐานอาคารคอนกรีตเสริมเหล็กโดยวิธีหน่วยแรงใช้งาน วสท. 1014-46, AWS D1.4"
       },
-      "package_path": "packages/03-concrete/concrete-lean-140ksc",
-      "spec_url": "https://raw.githubusercontent.com/PRIDA-TAKON/debim-specs-th/main/packages/03-concrete/concrete-lean-140ksc/spec.yaml"
+      "package_path": "packages/03-concrete/concrete-reinforcing-asa",
+      "spec_url": "https://raw.githubusercontent.com/PRIDA-TAKON/debim-specs-th/main/packages/03-concrete/concrete-reinforcing-asa/spec.yaml"
     },
     {
       "id": "CONCRETE_CPAC_WATERPROOF",
@@ -87,6 +155,57 @@
       "spec_url": "https://raw.githubusercontent.com/PRIDA-TAKON/debim-specs-th/main/packages/03-concrete/post-tension-unbonded/spec.yaml"
     },
     {
+      "id": "PRECAST_HOLLOW_CORE_PLANK_ASA",
+      "name": "งานพื้นคอนกรีตสำเร็จรูป (Precast Concrete Hollow Core Planks - ASA Standard)",
+      "slug": "precast-hollow-core-plank-asa",
+      "division": "03-concrete",
+      "category": "concrete_precast",
+      "manufacturer": "มาตรฐานสมาคมสถาปนิกสยามฯ (ASA) และผู้ผลิตที่ได้รับมาตรฐาน มอก.",
+      "masterformat": "03 41 13 - Precast Concrete Hollow Core Planks",
+      "warranty_years": 1,
+      "standards": {
+        "asa": "มาตรฐานรายการประกอบแบบก่อสร้าง สมาคมสถาปนิกสยามฯ 2552 หมวด 03 41 13",
+        "tis": "มอก. 576-2546 (แผ่นคอนกรีตเสริมเหล็กอัดแรงหล่อสำเร็จสำหรับระบบพื้น), มอก. 828-2531 (ชิ้นส่วนคอนกรีตเสริมเหล็กอัดแรงหล่อสำเร็จสำหรับระบบพื้นประกอบ)",
+        "dpt": "มาตรฐาน วสท. 1014-46"
+      },
+      "package_path": "packages/03-concrete/precast-hollow-core-plank-asa",
+      "spec_url": "https://raw.githubusercontent.com/PRIDA-TAKON/debim-specs-th/main/packages/03-concrete/precast-hollow-core-plank-asa/spec.yaml"
+    },
+    {
+      "id": "AUTOCLAVED_AERATED_CONCRETE_MASONRY_ASA",
+      "name": "งานผนังก่อคอนกรีตมวลเบา (Autoclaved Aerated Concrete Masonry - ASA Standard)",
+      "slug": "autoclaved-aerated-concrete-masonry-asa",
+      "division": "04-masonry",
+      "category": "masonry_aac",
+      "manufacturer": "มาตรฐานสมาคมสถาปนิกสยามฯ (ASA) และผู้ผลิตที่ได้รับมาตรฐาน มอก.",
+      "masterformat": "04 22 19 - Autoclaved Aerated Concrete Masonry",
+      "warranty_years": 2,
+      "standards": {
+        "asa": "มาตรฐานรายการประกอบแบบก่อสร้าง สมาคมสถาปนิกสยามฯ 2552 หมวด 04 22 19",
+        "tis": "มอก. 1505-2541 (ชิ้นส่วนคอนกรีตมวลเบาแบบมีฟองอากาศ-อบไอน้ำ), มอก. 1776-2542 (ปูนก่อสำเร็จรูป)",
+        "dpt": "มาตรฐาน มยผ. 1106-52"
+      },
+      "package_path": "packages/04-masonry/autoclaved-aerated-concrete-masonry-asa",
+      "spec_url": "https://raw.githubusercontent.com/PRIDA-TAKON/debim-specs-th/main/packages/04-masonry/autoclaved-aerated-concrete-masonry-asa/spec.yaml"
+    },
+    {
+      "id": "CLAY_BRICK_MASONRY_ASA",
+      "name": "งานผนังก่ออิฐมอญและอิฐก่อสร้าง (Brick Masonry - ASA Standard)",
+      "slug": "clay-brick-masonry-asa",
+      "division": "04-masonry",
+      "category": "masonry_brick",
+      "manufacturer": "มาตรฐานสมาคมสถาปนิกสยามฯ (ASA) และผู้ผลิตที่ได้รับมาตรฐาน มอก.",
+      "masterformat": "04 21 13 - Brick Masonry",
+      "warranty_years": 2,
+      "standards": {
+        "asa": "มาตรฐานรายการประกอบแบบก่อสร้าง สมาคมสถาปนิกสยามฯ 2552 หมวด 04 21 13",
+        "tis": "มอก. 77-2545 (อิฐก่อสร้างสามัญ), มอก. 1776-2542 (ปูนก่อสำเร็จรูป)",
+        "dpt": "มาตรฐาน มยผ. 1106-52"
+      },
+      "package_path": "packages/04-masonry/clay-brick-masonry-asa",
+      "spec_url": "https://raw.githubusercontent.com/PRIDA-TAKON/debim-specs-th/main/packages/04-masonry/clay-brick-masonry-asa/spec.yaml"
+    },
+    {
       "id": "CLAY_BRICK_TRADITIONAL",
       "name": "อิฐมอญก่อสร้างตัน (Traditional Solid Red Clay Brick)",
       "slug": "clay-brick-traditional",
@@ -101,6 +220,22 @@
       },
       "package_path": "packages/04-masonry/clay-brick-traditional",
       "spec_url": "https://raw.githubusercontent.com/PRIDA-TAKON/debim-specs-th/main/packages/04-masonry/clay-brick-traditional/spec.yaml"
+    },
+    {
+      "id": "CONCRETE_BLOCK_HOLLOW",
+      "name": "คอนกรีตบล็อกกลวงไม่รับน้ำหนัก (Non-Load-Bearing Hollow Concrete Masonry Block)",
+      "slug": "concrete-block-hollow",
+      "division": "04-masonry",
+      "category": "masonry_block",
+      "manufacturer": "โรงงานผลิตคอนกรีตบล็อกมาตรฐาน มอก.",
+      "masterformat": "04 22 00 - Concrete Unit Masonry",
+      "warranty_years": 5,
+      "standards": {
+        "tis": "มอก. 57-2560 (บล็อกคอนกรีตไม่รับน้ำหนัก)",
+        "astm": "ASTM C129"
+      },
+      "package_path": "packages/04-masonry/concrete-block-hollow",
+      "spec_url": "https://raw.githubusercontent.com/PRIDA-TAKON/debim-specs-th/main/packages/04-masonry/concrete-block-hollow/spec.yaml"
     },
     {
       "id": "QCON_AAC_BLOCK_G4",
@@ -120,20 +255,21 @@
       "spec_url": "https://raw.githubusercontent.com/PRIDA-TAKON/debim-specs-th/main/packages/04-masonry/q-con-aac-block-g4/spec.yaml"
     },
     {
-      "id": "CONCRETE_BLOCK_HOLLOW",
-      "name": "คอนกรีตบล็อกกลวงไม่รับน้ำหนัก (Non-Load-Bearing Hollow Concrete Masonry Block)",
-      "slug": "concrete-block-hollow",
-      "division": "04-masonry",
-      "category": "masonry_block",
-      "manufacturer": "โรงงานผลิตคอนกรีตบล็อกมาตรฐาน มอก.",
-      "masterformat": "04 22 00 - Concrete Unit Masonry",
-      "warranty_years": 5,
+      "id": "LIGHT_GAUGE_STEEL_TRUSS",
+      "name": "โครงหลังคาเหล็กกล้ากำลังสูงเคลือบกันสนิมกัลวาไนซ์ (Smart Truss Light Gauge High-Tensile Steel)",
+      "slug": "light-gauge-steel-roof-truss",
+      "division": "05-metals",
+      "category": "metals_roof_truss",
+      "manufacturer": "SCG Roofing / Lysaght / BlueScope",
+      "masterformat": "05 40 00 - Cold-Formed Metal Framing",
+      "warranty_years": 10,
       "standards": {
-        "tis": "มอก. 57-2560 (บล็อกคอนกรีตไม่รับน้ำหนัก)",
-        "astm": "ASTM C129"
+        "tis": "มอก. 2228-2548 (เหล็กกล้าแผ่นรีดเย็นเคลือบสังกะสี)",
+        "astm": "ASTM A792 (Grade G550)",
+        "as": "AS 1397"
       },
-      "package_path": "packages/04-masonry/concrete-block-hollow",
-      "spec_url": "https://raw.githubusercontent.com/PRIDA-TAKON/debim-specs-th/main/packages/04-masonry/concrete-block-hollow/spec.yaml"
+      "package_path": "packages/05-metals/light-gauge-steel-roof-truss",
+      "spec_url": "https://raw.githubusercontent.com/PRIDA-TAKON/debim-specs-th/main/packages/05-metals/light-gauge-steel-roof-truss/spec.yaml"
     },
     {
       "id": "REBAR_DEFORMED_SD40",
@@ -167,6 +303,23 @@
       "spec_url": "https://raw.githubusercontent.com/PRIDA-TAKON/debim-specs-th/main/packages/05-metals/rebar-round-rb9/spec.yaml"
     },
     {
+      "id": "STRUCTURAL_STEEL_FRAMING_ASA",
+      "name": "งานโครงสร้างเหล็กและงานโลหะ (Structural Steel Framing and Metal Fabrications - ASA Standard)",
+      "slug": "structural-steel-framing-asa",
+      "division": "05-metals",
+      "category": "metals_structural_steel",
+      "manufacturer": "มาตรฐานสมาคมสถาปนิกสยามฯ (ASA) และผู้ผลิตที่ได้รับมาตรฐาน มอก./JIS",
+      "masterformat": "05 12 00 - Structural Steel Framing",
+      "warranty_years": 2,
+      "standards": {
+        "asa": "มาตรฐานรายการประกอบแบบก่อสร้าง สมาคมสถาปนิกสยามฯ 2552 หมวด 05 12 00 และ 05 50 00",
+        "tis": "มอก. 107-2533 (ท่อเหล็กกลม/เหลี่ยมกลวง), มอก. 1227-2539 (เหล็กโครงสร้างรูปพรรณรีดร้อน), มอก. 1288-2538 (เหล็กรูปตัวซีขึ้นรูปเย็น)",
+        "dpt": "มาตรฐาน AISC (American Institute of Steel Construction), AWS D1.1 (Structural Welding Code - Steel), JIS G3101 SS400, JIS G3459"
+      },
+      "package_path": "packages/05-metals/structural-steel-framing-asa",
+      "spec_url": "https://raw.githubusercontent.com/PRIDA-TAKON/debim-specs-th/main/packages/05-metals/structural-steel-framing-asa/spec.yaml"
+    },
+    {
       "id": "STRUCTURAL_STEEL_SYS_SM400",
       "name": "เหล็กโครงสร้างรูปพรรณรีดร้อน เอสวายเอส เกรด SM400 (SYS Hot-Rolled Structural Steel SM400/SS400)",
       "slug": "structural-steel-sys-sm400",
@@ -184,21 +337,87 @@
       "spec_url": "https://raw.githubusercontent.com/PRIDA-TAKON/debim-specs-th/main/packages/05-metals/structural-steel-sys-sm400/spec.yaml"
     },
     {
-      "id": "LIGHT_GAUGE_STEEL_TRUSS",
-      "name": "โครงหลังคาเหล็กกล้ากำลังสูงเคลือบกันสนิมกัลวาไนซ์ (Smart Truss Light Gauge High-Tensile Steel)",
-      "slug": "light-gauge-steel-roof-truss",
-      "division": "05-metals",
-      "category": "metals_roof_truss",
-      "manufacturer": "SCG Roofing / Lysaght / BlueScope",
-      "masterformat": "05 40 00 - Cold-Formed Metal Framing",
-      "warranty_years": 10,
+      "id": "ARCHITECTURAL_WOODWORK_ASA",
+      "name": "งานไม้สำหรับงานสถาปัตยกรรม (Architectural Woodwork - ASA Standard)",
+      "slug": "architectural-woodwork-asa",
+      "division": "06-wood-plastics",
+      "category": "wood_architectural",
+      "manufacturer": "มาตรฐานสมาคมสถาปนิกสยามฯ (ASA) และองค์การอุตสาหกรรมป่าไม้",
+      "masterformat": "06 40 00 - Architectural Woodwork",
+      "warranty_years": 1,
       "standards": {
-        "tis": "มอก. 2228-2548 (เหล็กกล้าแผ่นรีดเย็นเคลือบสังกะสี)",
-        "astm": "ASTM A792 (Grade G550)",
-        "as": "AS 1397"
+        "asa": "มาตรฐานรายการประกอบแบบก่อสร้าง สมาคมสถาปนิกสยามฯ 2552 หมวด 06 40 00",
+        "tis": "มอก. 178-2549 (แผ่นไม้อัด), มอก. 192-2549 (ไม้แปรรูป)",
+        "dpt": "มาตรฐานกรมป่าไม้ กระทรวงทรัพยากรธรรมชาติและสิ่งแวดล้อม"
       },
-      "package_path": "packages/05-metals/light-gauge-steel-roof-truss",
-      "spec_url": "https://raw.githubusercontent.com/PRIDA-TAKON/debim-specs-th/main/packages/05-metals/light-gauge-steel-roof-truss/spec.yaml"
+      "package_path": "packages/06-wood-plastics/architectural-woodwork-asa",
+      "spec_url": "https://raw.githubusercontent.com/PRIDA-TAKON/debim-specs-th/main/packages/06-wood-plastics/architectural-woodwork-asa/spec.yaml"
+    },
+    {
+      "id": "BLUESCOPE_COLORBOND_SHEET",
+      "name": "แผ่นหลังคาเหล็กรีดลอน บลูสโคป คัลเลอร์บอนด์ (BlueScope Colorbond Clean Colorbond Steel Sheet 0.48mm TCT)",
+      "slug": "bluescope-colorbond-metal-sheet",
+      "division": "07-thermal-moisture",
+      "category": "thermal_roofing",
+      "manufacturer": "NS BlueScope (Thailand) Limited",
+      "masterformat": "07 41 13 - Metal Roof Panels",
+      "warranty_years": 25,
+      "standards": {
+        "tis": "มอก. 2753-2559 (เหล็กกล้าแผ่นรีดเย็นเคลือบโลหะผสมสังกะสี-อะลูมิเนียมเคลือบสี)",
+        "as": "AS 1397 / AS 2728"
+      },
+      "package_path": "packages/07-thermal-moisture/bluescope-colorbond-metal-sheet",
+      "spec_url": "https://raw.githubusercontent.com/PRIDA-TAKON/debim-specs-th/main/packages/07-thermal-moisture/bluescope-colorbond-metal-sheet/spec.yaml"
+    },
+    {
+      "id": "DAMPPROOFING_AND_WATERPROOFING_ASA",
+      "name": "งานป้องกันความชื้นและการกันซึม (Dampproofing and Waterproofing - ASA Standard)",
+      "slug": "dampproofing-waterproofing-asa",
+      "division": "07-thermal-moisture",
+      "category": "thermal_moisture_waterproofing",
+      "manufacturer": "มาตรฐานสมาคมสถาปนิกสยามฯ (ASA) และผู้ผลิตระบบกันซึมมาตรฐานสากล",
+      "masterformat": "07 10 00 - Dampproofing and Waterproofing",
+      "warranty_years": 5,
+      "standards": {
+        "asa": "มาตรฐานรายการประกอบแบบก่อสร้าง สมาคมสถาปนิกสยามฯ 2552 หมวด 07 10 00",
+        "tis": "มอก. 15 เล่ม 1-2547 (ปูนซีเมนต์ปอร์ตแลนด์)",
+        "dpt": "มาตรฐาน ASTM D412 (Tensile Properties), ASTM C836 (Cold Liquid-Applied Waterproofing Membrane)"
+      },
+      "package_path": "packages/07-thermal-moisture/dampproofing-waterproofing-asa",
+      "spec_url": "https://raw.githubusercontent.com/PRIDA-TAKON/debim-specs-th/main/packages/07-thermal-moisture/dampproofing-waterproofing-asa/spec.yaml"
+    },
+    {
+      "id": "PU_WATERPROOFING_LIQUID",
+      "name": "ระบบกันซึมโพลียูรีเทนไร้รอยต่อชนิดทา (Liquid Applied Polyurethane Waterproofing Membrane)",
+      "slug": "polyurethane-waterproofing-liquid",
+      "division": "07-thermal-moisture",
+      "category": "moisture_waterproofing",
+      "manufacturer": "Sika / Lanko / Bostik / Crocodile",
+      "masterformat": "07 14 16 - Cold Fluid-Applied Waterproofing",
+      "warranty_years": 5,
+      "standards": {
+        "astm": "ASTM C836 (High Solids Cold Liquid-Applied Elastomeric Waterproofing)",
+        "bs": "BS EN 14891"
+      },
+      "package_path": "packages/07-thermal-moisture/polyurethane-waterproofing-liquid",
+      "spec_url": "https://raw.githubusercontent.com/PRIDA-TAKON/debim-specs-th/main/packages/07-thermal-moisture/polyurethane-waterproofing-liquid/spec.yaml"
+    },
+    {
+      "id": "ROOF_TILES_ASA",
+      "name": "งานหลังคากระเบื้อง (Roof Tiles - ASA Standard)",
+      "slug": "roof-tiles-asa",
+      "division": "07-thermal-moisture",
+      "category": "roofing_tiles",
+      "manufacturer": "มาตรฐานสมาคมสถาปนิกสยามฯ (ASA) และผู้ผลิตที่ได้รับมาตรฐาน มอก.",
+      "masterformat": "07 32 00 - Roof Tiles",
+      "warranty_years": 2,
+      "standards": {
+        "asa": "มาตรฐานรายการประกอบแบบก่อสร้าง สมาคมสถาปนิกสยามฯ 2552 หมวด 07 32 00",
+        "tis": "มอก. 535-2556 (กระเบื้องคอนกรีตมุงหลังคา), มอก. 2619-2556 (แปหลังคาเหล็ก)",
+        "dpt": "มาตรฐาน มยผ. 1106-52"
+      },
+      "package_path": "packages/07-thermal-moisture/roof-tiles-asa",
+      "spec_url": "https://raw.githubusercontent.com/PRIDA-TAKON/debim-specs-th/main/packages/07-thermal-moisture/roof-tiles-asa/spec.yaml"
     },
     {
       "id": "SCG_STAY_COOL_75MM",
@@ -233,36 +452,38 @@
       "spec_url": "https://raw.githubusercontent.com/PRIDA-TAKON/debim-specs-th/main/packages/07-thermal-moisture/sika-bituseal-membrane/spec.yaml"
     },
     {
-      "id": "PU_WATERPROOFING_LIQUID",
-      "name": "ระบบกันซึมโพลียูรีเทนไร้รอยต่อชนิดทา (Liquid Applied Polyurethane Waterproofing Membrane)",
-      "slug": "polyurethane-waterproofing-liquid",
+      "id": "THERMAL_PROTECTION_ASA",
+      "name": "งานป้องกันความร้อนและฉนวนกันความร้อน (Thermal Protection - ASA Standard)",
+      "slug": "thermal-protection-asa",
       "division": "07-thermal-moisture",
-      "category": "moisture_waterproofing",
-      "manufacturer": "Sika / Lanko / Bostik / Crocodile",
-      "masterformat": "07 14 16 - Cold Fluid-Applied Waterproofing",
+      "category": "thermal_insulation",
+      "manufacturer": "มาตรฐานสมาคมสถาปนิกสยามฯ (ASA) และผู้ผลิตที่ได้รับมาตรฐาน มอก.",
+      "masterformat": "07 20 00 - Thermal Protection",
       "warranty_years": 5,
       "standards": {
-        "astm": "ASTM C836 (High Solids Cold Liquid-Applied Elastomeric Waterproofing)",
-        "bs": "BS EN 14891"
+        "asa": "มาตรฐานรายการประกอบแบบก่อสร้าง สมาคมสถาปนิกสยามฯ 2552 หมวด 07 20 00",
+        "tis": "มอก. 486-2527 (ฉนวนใยแก้ว), มอก. 487-2526 (การทดสอบฉนวนกันความร้อน)",
+        "dpt": "มาตรฐาน ASTM C665 (Mineral-Fiber Blanket Thermal Insulation)"
       },
-      "package_path": "packages/07-thermal-moisture/polyurethane-waterproofing-liquid",
-      "spec_url": "https://raw.githubusercontent.com/PRIDA-TAKON/debim-specs-th/main/packages/07-thermal-moisture/polyurethane-waterproofing-liquid/spec.yaml"
+      "package_path": "packages/07-thermal-moisture/thermal-protection-asa",
+      "spec_url": "https://raw.githubusercontent.com/PRIDA-TAKON/debim-specs-th/main/packages/07-thermal-moisture/thermal-protection-asa/spec.yaml"
     },
     {
-      "id": "BLUESCOPE_COLORBOND_SHEET",
-      "name": "แผ่นหลังคาเหล็กรีดลอน บลูสโคป คัลเลอร์บอนด์ (BlueScope Colorbond Clean Colorbond Steel Sheet 0.48mm TCT)",
-      "slug": "bluescope-colorbond-metal-sheet",
-      "division": "07-thermal-moisture",
-      "category": "thermal_roofing",
-      "manufacturer": "NS BlueScope (Thailand) Limited",
-      "masterformat": "07 41 13 - Metal Roof Panels",
-      "warranty_years": 25,
+      "id": "ALUMINIUM_DOORS_AND_WINDOWS_ASA",
+      "name": "งานประตูและหน้าต่างอลูมิเนียม (Aluminium Doors and Windows - ASA Standard)",
+      "slug": "aluminium-doors-windows-asa",
+      "division": "08-openings",
+      "category": "openings_aluminium",
+      "manufacturer": "มาตรฐานสมาคมสถาปนิกสยามฯ (ASA) และผู้ผลิตที่ได้รับมาตรฐาน มอก.",
+      "masterformat": "08 11 16 - Aluminium Doors and Frames",
+      "warranty_years": 2,
       "standards": {
-        "tis": "มอก. 2753-2559 (เหล็กกล้าแผ่นรีดเย็นเคลือบโลหะผสมสังกะสี-อะลูมิเนียมเคลือบสี)",
-        "as": "AS 1397 / AS 2728"
+        "asa": "มาตรฐานรายการประกอบแบบก่อสร้าง สมาคมสถาปนิกสยามฯ 2552 หมวด 08 11 16 และ 08 51 13",
+        "tis": "มอก. 284-2530 (โครงอลูมิเนียมสำหรับงานอาคาร), มอก. 829-2531 (ประตูหน้าต่างอลูมิเนียม)",
+        "dpt": "มาตรฐาน ASTM B221 (Aluminum Alloy 6063 T5), AAMA Standards"
       },
-      "package_path": "packages/07-thermal-moisture/bluescope-colorbond-metal-sheet",
-      "spec_url": "https://raw.githubusercontent.com/PRIDA-TAKON/debim-specs-th/main/packages/07-thermal-moisture/bluescope-colorbond-metal-sheet/spec.yaml"
+      "package_path": "packages/08-openings/aluminium-doors-windows-asa",
+      "spec_url": "https://raw.githubusercontent.com/PRIDA-TAKON/debim-specs-th/main/packages/08-openings/aluminium-doors-windows-asa/spec.yaml"
     },
     {
       "id": "ALUMINUM_POWDER_COAT",
@@ -279,6 +500,39 @@
       },
       "package_path": "packages/08-openings/aluminum-powder-coat-framing",
       "spec_url": "https://raw.githubusercontent.com/PRIDA-TAKON/debim-specs-th/main/packages/08-openings/aluminum-powder-coat-framing/spec.yaml"
+    },
+    {
+      "id": "DOOR_AND_WINDOW_HARDWARE_ASA",
+      "name": "อุปกรณ์ประกอบประตูและหน้าต่าง (Door and Window Hardware - ASA Standard)",
+      "slug": "door-window-hardware-asa",
+      "division": "08-openings",
+      "category": "openings_hardware",
+      "manufacturer": "มาตรฐานสมาคมสถาปนิกสยามฯ (ASA) และผู้ผลิตฮาร์ดแวร์มาตรฐานสากล",
+      "masterformat": "08 71 00 - Door Hardware",
+      "warranty_years": 2,
+      "standards": {
+        "asa": "มาตรฐานรายการประกอบแบบก่อสร้าง สมาคมสถาปนิกสยามฯ 2552 หมวด 08 71 00 และ 08 75 00",
+        "tis": "มอก. 756-2531 (กุญแจลูกบิดติดประตู)",
+        "dpt": "มาตรฐาน ANSI/BHMA A156 Series, UL Listed"
+      },
+      "package_path": "packages/08-openings/door-window-hardware-asa",
+      "spec_url": "https://raw.githubusercontent.com/PRIDA-TAKON/debim-specs-th/main/packages/08-openings/door-window-hardware-asa/spec.yaml"
+    },
+    {
+      "id": "GLASS_LAMINATED_ACOUSTIC",
+      "name": "กระจกนิรภัยลามิเนตกันเสียงและความปลอดภัย (Acoustic Safety Laminated Glass 6+0.76PVB+6mm)",
+      "slug": "glass-laminated-acoustic-safety",
+      "division": "08-openings",
+      "category": "openings_glass",
+      "manufacturer": "AGC Glass Thailand / Saint-Gobain Glass / TGSG",
+      "masterformat": "08 80 00 - Glazing",
+      "warranty_years": 5,
+      "standards": {
+        "tis": "มอก. 1222-2560 (กระจกลามิเนต)",
+        "astm": "ASTM C1172"
+      },
+      "package_path": "packages/08-openings/glass-laminated-acoustic-safety",
+      "spec_url": "https://raw.githubusercontent.com/PRIDA-TAKON/debim-specs-th/main/packages/08-openings/glass-laminated-acoustic-safety/spec.yaml"
     },
     {
       "id": "GLASS_TEMPERED_CLEAR_10MM",
@@ -298,20 +552,55 @@
       "spec_url": "https://raw.githubusercontent.com/PRIDA-TAKON/debim-specs-th/main/packages/08-openings/glass-tempered-clear-10mm/spec.yaml"
     },
     {
-      "id": "GLASS_LAMINATED_ACOUSTIC",
-      "name": "กระจกนิรภัยลามิเนตกันเสียงและความปลอดภัย (Acoustic Safety Laminated Glass 6+0.76PVB+6mm)",
-      "slug": "glass-laminated-acoustic-safety",
+      "id": "GLAZING_ASA",
+      "name": "งานกระจกและวัสดุติดตั้งกระจก (Glazing - ASA Standard)",
+      "slug": "glazing-asa",
       "division": "08-openings",
-      "category": "openings_glass",
-      "manufacturer": "AGC Glass Thailand / Saint-Gobain Glass / TGSG",
+      "category": "openings_glazing",
+      "manufacturer": "มาตรฐานสมาคมสถาปนิกสยามฯ (ASA) และผู้ผลิตกระจกมาตรฐาน มอก.",
       "masterformat": "08 80 00 - Glazing",
-      "warranty_years": 5,
+      "warranty_years": 2,
       "standards": {
-        "tis": "มอก. 1222-2560 (กระจกลามิเนต)",
-        "astm": "ASTM C1172"
+        "asa": "มาตรฐานรายการประกอบแบบก่อสร้าง สมาคมสถาปนิกสยามฯ 2552 หมวด 08 80 00",
+        "tis": "มอก. 1222-2560 (กระจกโฟลต), มอก. 965-2537 (กระจกนิรภัยเทมเปอร์), มอก. 1223-2537 (กระจกนิรภัยลามิเนต)",
+        "dpt": "มาตรฐาน ASTM C1036 (Flat Glass), ASTM C1048 (Heat-Treated Flat Glass)"
       },
-      "package_path": "packages/08-openings/glass-laminated-acoustic-safety",
-      "spec_url": "https://raw.githubusercontent.com/PRIDA-TAKON/debim-specs-th/main/packages/08-openings/glass-laminated-acoustic-safety/spec.yaml"
+      "package_path": "packages/08-openings/glazing-asa",
+      "spec_url": "https://raw.githubusercontent.com/PRIDA-TAKON/debim-specs-th/main/packages/08-openings/glazing-asa/spec.yaml"
+    },
+    {
+      "id": "LOUVERS_ASA",
+      "name": "งานบานเกล็ดระบายอากาศ (Louvers - ASA Standard)",
+      "slug": "louvers-asa",
+      "division": "08-openings",
+      "category": "openings_louvers",
+      "manufacturer": "มาตรฐานสมาคมสถาปนิกสยามฯ (ASA) และผู้ผลิตที่ได้รับมาตรฐาน มอก.",
+      "masterformat": "08 91 00 - Louvers",
+      "warranty_years": 2,
+      "standards": {
+        "asa": "มาตรฐานรายการประกอบแบบก่อสร้าง สมาคมสถาปนิกสยามฯ 2552 หมวด 08 91 00",
+        "tis": "มอก. 284-2530 (อลูมิเนียมโครงสร้าง), มอก. 1222-2560 (กระจกแผ่น)",
+        "dpt": "มาตรฐาน AMCA 500-L (Laboratory Methods of Testing Louvers for Rating)"
+      },
+      "package_path": "packages/08-openings/louvers-asa",
+      "spec_url": "https://raw.githubusercontent.com/PRIDA-TAKON/debim-specs-th/main/packages/08-openings/louvers-asa/spec.yaml"
+    },
+    {
+      "id": "METAL_DOORS_AND_FRAMES_ASA",
+      "name": "งานประตูและวงกบเหล็ก (Metal Doors and Frames - ASA Standard)",
+      "slug": "metal-doors-frames-asa",
+      "division": "08-openings",
+      "category": "openings_metal_doors",
+      "manufacturer": "มาตรฐานสมาคมสถาปนิกสยามฯ (ASA) และผู้ผลิตที่ได้รับมาตรฐานสากล",
+      "masterformat": "08 11 00 - Metal Doors and Frames",
+      "warranty_years": 2,
+      "standards": {
+        "asa": "มาตรฐานรายการประกอบแบบก่อสร้าง สมาคมสถาปนิกสยามฯ 2552 หมวด 08 11 00",
+        "tis": "มอก. 244-2551 (ประตูเหล็ก)",
+        "dpt": "มาตรฐาน NFPA 80 (Standard for Fire Doors), UL 10C (Fire Tests of Door Assemblies)"
+      },
+      "package_path": "packages/08-openings/metal-doors-frames-asa",
+      "spec_url": "https://raw.githubusercontent.com/PRIDA-TAKON/debim-specs-th/main/packages/08-openings/metal-doors-frames-asa/spec.yaml"
     },
     {
       "id": "SOLID_TEAK_DOOR",
@@ -330,35 +619,38 @@
       "spec_url": "https://raw.githubusercontent.com/PRIDA-TAKON/debim-specs-th/main/packages/08-openings/solid-teak-door/spec.yaml"
     },
     {
-      "id": "TOA_SUPERSHIELD_EXT",
-      "name": "สีน้ำอะคริลิกแท้ 100% สำหรับทาภายนอกอาคาร (TOA SuperShield Titanium Exterior Paint)",
-      "slug": "toa-supershield-exterior",
-      "division": "09-finishes",
-      "category": "finishes_paint",
-      "manufacturer": "TOA Paint (Thailand) Public Company Limited",
-      "masterformat": "09 91 13 - Exterior Painting",
-      "warranty_years": 15,
+      "id": "WOOD_DOORS_AND_WINDOWS_ASA",
+      "name": "งานประตูและหน้าต่างไม้ (Wood Doors and Windows - ASA Standard)",
+      "slug": "wood-doors-windows-asa",
+      "division": "08-openings",
+      "category": "openings_wood_doors",
+      "manufacturer": "มาตรฐานสมาคมสถาปนิกสยามฯ (ASA) และผู้ผลิตที่ได้รับมาตรฐาน มอก.",
+      "masterformat": "08 14 00 - Wood Doors",
+      "warranty_years": 1,
       "standards": {
-        "tis": "มอก. 2321-2564 (สีอิมัลชันทนสภาวะอากาศ)",
-        "astm": "ASTM D4587 / ASTM D3359"
+        "asa": "มาตรฐานรายการประกอบแบบก่อสร้าง สมาคมสถาปนิกสยามฯ 2552 หมวด 08 14 00 และ 08 52 00",
+        "tis": "มอก. 178-2549 (แผ่นไม้อัด), มอก. 192-2549 (ไม้แปรรูป)",
+        "dpt": "มาตรฐานกรมป่าไม้ กระทรวงทรัพยากรธรรมชาติและสิ่งแวดล้อม"
       },
-      "package_path": "packages/09-finishes/toa-supershield-exterior",
-      "spec_url": "https://raw.githubusercontent.com/PRIDA-TAKON/debim-specs-th/main/packages/09-finishes/toa-supershield-exterior/spec.yaml"
+      "package_path": "packages/08-openings/wood-doors-windows-asa",
+      "spec_url": "https://raw.githubusercontent.com/PRIDA-TAKON/debim-specs-th/main/packages/08-openings/wood-doors-windows-asa/spec.yaml"
     },
     {
-      "id": "TOA_4SEASONS_INT",
-      "name": "สีน้ำอะคริลิกสำหรับทาภายในอาคาร ทีโอเอ โฟร์ซีซั่นส์ (TOA 4Seasons Acrylic Emulsion Interior)",
-      "slug": "toa-4-seasons-interior",
+      "id": "CARPETING_ASA",
+      "name": "งานพรม (Carpeting - ASA Standard)",
+      "slug": "carpeting-asa",
       "division": "09-finishes",
-      "category": "finishes_paint",
-      "manufacturer": "TOA Paint (Thailand) Public Company Limited",
-      "masterformat": "09 91 23 - Interior Painting",
-      "warranty_years": 8,
+      "category": "finishes_carpeting",
+      "manufacturer": "มาตรฐานสมาคมสถาปนิกสยามฯ (ASA) และผู้ผลิตพรมที่ได้รับมาตรฐานสากล",
+      "masterformat": "09 68 00 - Carpeting",
+      "warranty_years": 2,
       "standards": {
-        "tis": "มอก. 272-2549 (สีอิมัลชันใช้งานทั่วไป)"
+        "asa": "มาตรฐานรายการประกอบแบบก่อสร้าง สมาคมสถาปนิกสยามฯ 2552 หมวด 09 68 00",
+        "tis": "มอก. 2486-2553 (พรมปูพื้นทอเครื่อง)",
+        "dpt": "มาตรฐาน CRI Green Label Plus, ASTM D5252"
       },
-      "package_path": "packages/09-finishes/toa-4-seasons-interior",
-      "spec_url": "https://raw.githubusercontent.com/PRIDA-TAKON/debim-specs-th/main/packages/09-finishes/toa-4-seasons-interior/spec.yaml"
+      "package_path": "packages/09-finishes/carpeting-asa",
+      "spec_url": "https://raw.githubusercontent.com/PRIDA-TAKON/debim-specs-th/main/packages/09-finishes/carpeting-asa/spec.yaml"
     },
     {
       "id": "COTTO_PORCELAIN_60X60",
@@ -378,22 +670,6 @@
       "spec_url": "https://raw.githubusercontent.com/PRIDA-TAKON/debim-specs-th/main/packages/09-finishes/cotto-porcelain-tile-60x60/spec.yaml"
     },
     {
-      "id": "SCG_SMARTBOARD_4MM",
-      "name": "แผ่นไฟเบอร์ซีเมนต์ฝ้าเพดาน เอสซีจี สมาร์ทบอร์ด หนา 4 มม. (SCG Smartboard Fiber Cement Ceiling Board 4mm)",
-      "slug": "scg-smartboard-ceiling-4mm",
-      "division": "09-finishes",
-      "category": "finishes_ceiling",
-      "manufacturer": "The Siam Fibre-Cement Co., Ltd. (SCG)",
-      "masterformat": "09 51 00 - Acoustical Ceilings / Fiber Cement Ceilings",
-      "warranty_years": 10,
-      "standards": {
-        "tis": "มอก. 1427-2561 (แผ่นไฟเบอร์ซีเมนต์)",
-        "astm": "ASTM C1186 (Grade I)"
-      },
-      "package_path": "packages/09-finishes/scg-smartboard-ceiling-4mm",
-      "spec_url": "https://raw.githubusercontent.com/PRIDA-TAKON/debim-specs-th/main/packages/09-finishes/scg-smartboard-ceiling-4mm/spec.yaml"
-    },
-    {
       "id": "GYPROC_GYPSUM_9MM",
       "name": "แผ่นยิปซัมบอร์ด ยิปรอค หนา 9 มม. ขอบลาด (Gyproc Standard Gypsum Plasterboard 9mm Tapered Edge)",
       "slug": "gyproc-gypsum-board-9mm",
@@ -411,19 +687,271 @@
       "spec_url": "https://raw.githubusercontent.com/PRIDA-TAKON/debim-specs-th/main/packages/09-finishes/gyproc-gypsum-board-9mm/spec.yaml"
     },
     {
-      "id": "SCG_PVC_CLASS_8_5",
-      "name": "ท่อพีวีซีแข็งสำหรับงานระบายน้ำเสียและระบายอากาศ เอสซีจี ชั้น 8.5 (SCG Rigid PVC Pipe Class 8.5 Drainage & Vent)",
-      "slug": "scg-pvc-pipe-class-8-5",
-      "division": "22-plumbing",
-      "category": "plumbing_drainage",
-      "manufacturer": "Thai Pipe Industry / Nawaplastic Industries (SCG)",
-      "masterformat": "22 13 16 - Sanitary Waste and Vent Piping",
+      "id": "GYPSUM_BOARD_SYSTEM_ASA",
+      "name": "งานฝ้าเพดานและผนังยิบซั่มบอร์ด (Gypsum Board - ASA Standard)",
+      "slug": "gypsum-board-system-asa",
+      "division": "09-finishes",
+      "category": "finishes_gypsum_board",
+      "manufacturer": "มาตรฐานสมาคมสถาปนิกสยามฯ (ASA) และผู้ผลิตยิบซั่มชั้นนำ",
+      "masterformat": "09 29 00 - Gypsum Board",
+      "warranty_years": 2,
+      "standards": {
+        "asa": "มาตรฐานรายการประกอบแบบก่อสร้าง สมาคมสถาปนิกสยามฯ 2552 หมวด 09 29 00",
+        "tis": "มอก. 219-2552 (แผ่นยิปซัม), มอก. 863-2532 (โครงคร่าวโลหะสำหรับแผ่นยิปซัม)",
+        "dpt": "มาตรฐาน ASTM C1396, ASTM C645"
+      },
+      "package_path": "packages/09-finishes/gypsum-board-system-asa",
+      "spec_url": "https://raw.githubusercontent.com/PRIDA-TAKON/debim-specs-th/main/packages/09-finishes/gypsum-board-system-asa/spec.yaml"
+    },
+    {
+      "id": "LINEAR_WOOD_CEILING_ASA",
+      "name": "งานฝ้าระแนงไม้ (Linear Wood Ceiling - ASA Standard)",
+      "slug": "linear-wood-ceiling-asa",
+      "division": "09-finishes",
+      "category": "finishes_wood_ceiling",
+      "manufacturer": "มาตรฐานสมาคมสถาปนิกสยามฯ (ASA)",
+      "masterformat": "09 54 26 - Linear Wood Ceiling",
+      "warranty_years": 1,
+      "standards": {
+        "asa": "มาตรฐานรายการประกอบแบบก่อสร้าง สมาคมสถาปนิกสยามฯ 2552 หมวด 09 54 26",
+        "tis": "มอก. 192-2549 (ไม้แปรรูป)",
+        "dpt": "มาตรฐานกรมป่าไม้ กระทรวงทรัพยากรธรรมชาติและสิ่งแวดล้อม"
+      },
+      "package_path": "packages/09-finishes/linear-wood-ceiling-asa",
+      "spec_url": "https://raw.githubusercontent.com/PRIDA-TAKON/debim-specs-th/main/packages/09-finishes/linear-wood-ceiling-asa/spec.yaml"
+    },
+    {
+      "id": "PAINTING_ASA",
+      "name": "งานทาสี (Painting - ASA Standard)",
+      "slug": "painting-asa",
+      "division": "09-finishes",
+      "category": "finishes_painting",
+      "manufacturer": "มาตรฐานสมาคมสถาปนิกสยามฯ (ASA) และผู้ผลิตสีมาตรฐาน มอก.",
+      "masterformat": "09 91 00 - Painting",
+      "warranty_years": 5,
+      "standards": {
+        "asa": "มาตรฐานรายการประกอบแบบก่อสร้าง สมาคมสถาปนิกสยามฯ 2552 หมวด 09 91 00",
+        "tis": "มอก. 272-2549 (สีอิมัลชัน), มอก. 2625-2557 (สีน้ำมันอัลคีด), มอก. 285-2554 (สีรองพื้นกันสนิม)",
+        "dpt": "มาตรฐาน มยผ. 1106-52"
+      },
+      "package_path": "packages/09-finishes/painting-asa",
+      "spec_url": "https://raw.githubusercontent.com/PRIDA-TAKON/debim-specs-th/main/packages/09-finishes/painting-asa/spec.yaml"
+    },
+    {
+      "id": "PORTLAND_CEMENT_PLASTERING_ASA",
+      "name": "งานฉาบปูนซีเมนต์ (Portland Cement Plastering - ASA Standard)",
+      "slug": "portland-cement-plastering-asa",
+      "division": "09-finishes",
+      "category": "finishes_plastering",
+      "manufacturer": "มาตรฐานสมาคมสถาปนิกสยามฯ (ASA) และผู้ผลิตปูนซีเมนต์ชั้นนำ",
+      "masterformat": "09 24 00 - Portland Cement Plastering",
+      "warranty_years": 2,
+      "standards": {
+        "asa": "มาตรฐานรายการประกอบแบบก่อสร้าง สมาคมสถาปนิกสยามฯ 2552 หมวด 09 24 00",
+        "tis": "มอก. 80-2550 (ปูนซีเมนต์ผสม), มอก. 1776-2542 (ปูนฉาบสำเร็จรูป), มอก. 2595-2556 (ปูนฉาบมวลเบา)",
+        "dpt": "มาตรฐาน มยผ. 1106-52, ASTM C926"
+      },
+      "package_path": "packages/09-finishes/portland-cement-plastering-asa",
+      "spec_url": "https://raw.githubusercontent.com/PRIDA-TAKON/debim-specs-th/main/packages/09-finishes/portland-cement-plastering-asa/spec.yaml"
+    },
+    {
+      "id": "SCG_SMARTBOARD_4MM",
+      "name": "แผ่นไฟเบอร์ซีเมนต์ฝ้าเพดาน เอสซีจี สมาร์ทบอร์ด หนา 4 มม. (SCG Smartboard Fiber Cement Ceiling Board 4mm)",
+      "slug": "scg-smartboard-ceiling-4mm",
+      "division": "09-finishes",
+      "category": "finishes_ceiling",
+      "manufacturer": "The Siam Fibre-Cement Co., Ltd. (SCG)",
+      "masterformat": "09 51 00 - Acoustical Ceilings / Fiber Cement Ceilings",
       "warranty_years": 10,
       "standards": {
-        "tis": "มอก. 17-2532 (ท่อพอลิไวนิลคลอไรด์แข็งสำหรับใช้เป็นท่อน้ำดื่มและระบายน้ำ)"
+        "tis": "มอก. 1427-2561 (แผ่นไฟเบอร์ซีเมนต์)",
+        "astm": "ASTM C1186 (Grade I)"
       },
-      "package_path": "packages/22-plumbing/scg-pvc-pipe-class-8-5",
-      "spec_url": "https://raw.githubusercontent.com/PRIDA-TAKON/debim-specs-th/main/packages/22-plumbing/scg-pvc-pipe-class-8-5/spec.yaml"
+      "package_path": "packages/09-finishes/scg-smartboard-ceiling-4mm",
+      "spec_url": "https://raw.githubusercontent.com/PRIDA-TAKON/debim-specs-th/main/packages/09-finishes/scg-smartboard-ceiling-4mm/spec.yaml"
+    },
+    {
+      "id": "STONE_FLOORING_AND_FACING_ASA",
+      "name": "งานพื้นปูหินและผนังบุหิน (Stone Flooring and Facing - ASA Standard)",
+      "slug": "stone-flooring-facing-asa",
+      "division": "09-finishes",
+      "category": "finishes_stone",
+      "manufacturer": "มาตรฐานสมาคมสถาปนิกสยามฯ (ASA) และผู้ผลิตหินธรรมชาติคัดเกรด",
+      "masterformat": "09 63 40 - Stone Flooring",
+      "warranty_years": 2,
+      "standards": {
+        "asa": "มาตรฐานรายการประกอบแบบก่อสร้าง สมาคมสถาปนิกสยามฯ 2552 หมวด 09 63 40 และ 09 75 00",
+        "tis": "มอก. 2703-2559 (กาวซีเมนต์ปูหินธรรมชาติ), มอก. 2704-2559 (กาวยาแนว)",
+        "dpt": "มาตรฐาน ASTM C615 (Granite), ASTM C503 (Marble)"
+      },
+      "package_path": "packages/09-finishes/stone-flooring-facing-asa",
+      "spec_url": "https://raw.githubusercontent.com/PRIDA-TAKON/debim-specs-th/main/packages/09-finishes/stone-flooring-facing-asa/spec.yaml"
+    },
+    {
+      "id": "TILING_ASA",
+      "name": "งานปูกระเบื้องเซรามิคและกระเบื้องดินเผา (Tiling - ASA Standard)",
+      "slug": "tiling-asa",
+      "division": "09-finishes",
+      "category": "finishes_tiling",
+      "manufacturer": "มาตรฐานสมาคมสถาปนิกสยามฯ (ASA) และผู้ผลิตกระเบื้องมาตรฐาน มอก.",
+      "masterformat": "09 30 00 - Tiling",
+      "warranty_years": 2,
+      "standards": {
+        "asa": "มาตรฐานรายการประกอบแบบก่อสร้าง สมาคมสถาปนิกสยามฯ 2552 หมวด 09 30 00",
+        "tis": "มอก. 2508-2555 (กระเบื้องเซรามิก), มอก. 2703-2559 (กาวซีเมนต์ปูกระเบื้อง), มอก. 2704-2559 (กาวยาแนวกระเบื้อง)",
+        "dpt": "มาตรฐาน ANSI A118 Series, ISO 13007"
+      },
+      "package_path": "packages/09-finishes/tiling-asa",
+      "spec_url": "https://raw.githubusercontent.com/PRIDA-TAKON/debim-specs-th/main/packages/09-finishes/tiling-asa/spec.yaml"
+    },
+    {
+      "id": "TOA_4SEASONS_INT",
+      "name": "สีน้ำอะคริลิกสำหรับทาภายในอาคาร ทีโอเอ โฟร์ซีซั่นส์ (TOA 4Seasons Acrylic Emulsion Interior)",
+      "slug": "toa-4-seasons-interior",
+      "division": "09-finishes",
+      "category": "finishes_paint",
+      "manufacturer": "TOA Paint (Thailand) Public Company Limited",
+      "masterformat": "09 91 23 - Interior Painting",
+      "warranty_years": 8,
+      "standards": {
+        "tis": "มอก. 272-2549 (สีอิมัลชันใช้งานทั่วไป)"
+      },
+      "package_path": "packages/09-finishes/toa-4-seasons-interior",
+      "spec_url": "https://raw.githubusercontent.com/PRIDA-TAKON/debim-specs-th/main/packages/09-finishes/toa-4-seasons-interior/spec.yaml"
+    },
+    {
+      "id": "TOA_SUPERSHIELD_EXT",
+      "name": "สีน้ำอะคริลิกแท้ 100% สำหรับทาภายนอกอาคาร (TOA SuperShield Titanium Exterior Paint)",
+      "slug": "toa-supershield-exterior",
+      "division": "09-finishes",
+      "category": "finishes_paint",
+      "manufacturer": "TOA Paint (Thailand) Public Company Limited",
+      "masterformat": "09 91 13 - Exterior Painting",
+      "warranty_years": 15,
+      "standards": {
+        "tis": "มอก. 2321-2564 (สีอิมัลชันทนสภาวะอากาศ)",
+        "astm": "ASTM D4587 / ASTM D3359"
+      },
+      "package_path": "packages/09-finishes/toa-supershield-exterior",
+      "spec_url": "https://raw.githubusercontent.com/PRIDA-TAKON/debim-specs-th/main/packages/09-finishes/toa-supershield-exterior/spec.yaml"
+    },
+    {
+      "id": "WASHED_AGGREGATE_FLOORING_AND_FACING_ASA",
+      "name": "งานพื้นและผนังหินล้าง/กรวดล้าง (Washed Aggregate Flooring and Facing - ASA Standard)",
+      "slug": "washed-aggregate-flooring-asa",
+      "division": "09-finishes",
+      "category": "finishes_washed_aggregate",
+      "manufacturer": "มาตรฐานสมาคมสถาปนิกสยามฯ (ASA)",
+      "masterformat": "09 66 43 - Washed Aggregate Flooring",
+      "warranty_years": 2,
+      "standards": {
+        "asa": "มาตรฐานรายการประกอบแบบก่อสร้าง สมาคมสถาปนิกสยามฯ 2552 หมวด 09 66 43 และ 09 77 43",
+        "tis": "มอก. 133-2556 (ปูนซีเมนต์ขาว), มอก. 15 เล่ม 1-2547 (ปูนซีเมนต์ปอร์ตแลนด์)",
+        "dpt": "มาตรฐาน มยผ. 1106-52"
+      },
+      "package_path": "packages/09-finishes/washed-aggregate-flooring-asa",
+      "spec_url": "https://raw.githubusercontent.com/PRIDA-TAKON/debim-specs-th/main/packages/09-finishes/washed-aggregate-flooring-asa/spec.yaml"
+    },
+    {
+      "id": "WOOD_FLOORING_ASA",
+      "name": "งานพื้นไม้ (Wood Flooring - ASA Standard)",
+      "slug": "wood-flooring-asa",
+      "division": "09-finishes",
+      "category": "finishes_wood_flooring",
+      "manufacturer": "มาตรฐานสมาคมสถาปนิกสยามฯ (ASA)",
+      "masterformat": "09 64 00 - Wood Flooring",
+      "warranty_years": 2,
+      "standards": {
+        "asa": "มาตรฐานรายการประกอบแบบก่อสร้าง สมาคมสถาปนิกสยามฯ 2552 หมวด 09 64 00",
+        "tis": "มอก. 192-2549 (ไม้แปรรูป), มอก. 178-2549 (แผ่นไม้อัด)",
+        "dpt": "มาตรฐาน NWFA (National Wood Flooring Association)"
+      },
+      "package_path": "packages/09-finishes/wood-flooring-asa",
+      "spec_url": "https://raw.githubusercontent.com/PRIDA-TAKON/debim-specs-th/main/packages/09-finishes/wood-flooring-asa/spec.yaml"
+    },
+    {
+      "id": "SOFTSCAPE_ASA",
+      "name": "งานต้นไม้และภูมิทัศน์ (Softscape - ASA Standard)",
+      "slug": "softscape-asa",
+      "division": "10-specialties",
+      "category": "specialties_softscape",
+      "manufacturer": "มาตรฐานสมาคมสถาปนิกสยามฯ (ASA)",
+      "masterformat": "10 99 11 - Softscape",
+      "warranty_years": 1,
+      "standards": {
+        "asa": "มาตรฐานรายการประกอบแบบก่อสร้าง สมาคมสถาปนิกสยามฯ 2552 หมวด 10 99 11",
+        "tis": "มาตรฐานกรมวิชาการเกษตร กระทรวงเกษตรและสหกรณ์",
+        "dpt": "มาตรฐานสมาคมภูมิสถาปนิกประเทศไทย (TALA)"
+      },
+      "package_path": "packages/10-specialties/softscape-asa",
+      "spec_url": "https://raw.githubusercontent.com/PRIDA-TAKON/debim-specs-th/main/packages/10-specialties/softscape-asa/spec.yaml"
+    },
+    {
+      "id": "BUILT_IN_FURNITURE_ASA",
+      "name": "งานเฟอร์นิเจอร์และตกแต่งภายใน (Furnitures - ASA Standard)",
+      "slug": "built-in-furniture-asa",
+      "division": "12-furnishings",
+      "category": "furnishings_furniture",
+      "manufacturer": "มาตรฐานสมาคมสถาปนิกสยามฯ (ASA)",
+      "masterformat": "12 50 00 - Furnitures",
+      "warranty_years": 1,
+      "standards": {
+        "asa": "มาตรฐานรายการประกอบแบบก่อสร้าง สมาคมสถาปนิกสยามฯ 2552 หมวด 12 50 00",
+        "tis": "มอก. 178-2549 (แผ่นไม้อัด), มอก. 192-2549 (ไม้แปรรูป)",
+        "dpt": "มาตรฐานสมาคมมัณฑนากรแห่งประเทศไทย (TIDA)"
+      },
+      "package_path": "packages/12-furnishings/built-in-furniture-asa",
+      "spec_url": "https://raw.githubusercontent.com/PRIDA-TAKON/debim-specs-th/main/packages/12-furnishings/built-in-furniture-asa/spec.yaml"
+    },
+    {
+      "id": "COTTO_WC_DUAL_FLUSH",
+      "name": "โถสุขภัณฑ์นั่งราบประหยัดน้ำ คอตโต้ ระบบดูอัลฟลัช (COTTO Dual Flush Water Closet 3/4.5 Liters)",
+      "slug": "cotto-water-closet-dual-flush",
+      "division": "22-plumbing",
+      "category": "plumbing_fixtures",
+      "manufacturer": "SCG Ceramics Public Co., Ltd. (COTTO)",
+      "masterformat": "22 40 00 - Plumbing Fixtures",
+      "warranty_years": 5,
+      "standards": {
+        "tis": "มอก. 792-2554 (เครื่องสุขภัณฑ์เซรามิก: โถส้วม)",
+        "water_sense": "ฉลากเขียวประหยัดน้ำเบอร์ 5"
+      },
+      "package_path": "packages/22-plumbing/cotto-water-closet-dual-flush",
+      "spec_url": "https://raw.githubusercontent.com/PRIDA-TAKON/debim-specs-th/main/packages/22-plumbing/cotto-water-closet-dual-flush/spec.yaml"
+    },
+    {
+      "id": "PLUMBING_FIXTURES_AND_ACCESSORIES_ASA",
+      "name": "งานสุขภัณฑ์และอุปกรณ์ประกอบห้องน้ำ (Plumbing Fixtures and Bath Accessories - ASA Standard)",
+      "slug": "plumbing-fixtures-accessories-asa",
+      "division": "22-plumbing",
+      "category": "plumbing_fixtures",
+      "manufacturer": "มาตรฐานสมาคมสถาปนิกสยามฯ (ASA) และผู้ผลิตสุขภัณฑ์มาตรฐาน มอก.",
+      "masterformat": "22 40 00 - Plumbing Fixtures",
+      "warranty_years": 1,
+      "standards": {
+        "asa": "มาตรฐานรายการประกอบแบบก่อสร้าง สมาคมสถาปนิกสยามฯ 2552 หมวด 22 40 00, 10 28 13 และ 10 28 16",
+        "tis": "มอก. 792-2554 (เครื่องสุขภัณฑ์เซรามิก), มอก. 2066-2552 (ก๊อกน้ำสำหรับเครื่องสุขภัณฑ์)",
+        "dpt": "มาตรฐาน วสท. 3001-44, ASME A112.19.2"
+      },
+      "package_path": "packages/22-plumbing/plumbing-fixtures-accessories-asa",
+      "spec_url": "https://raw.githubusercontent.com/PRIDA-TAKON/debim-specs-th/main/packages/22-plumbing/plumbing-fixtures-accessories-asa/spec.yaml"
+    },
+    {
+      "id": "PLUMBING_SYSTEM_ASA",
+      "name": "งานระบบท่อสุขาภิบาล (Plumbing System - ASA Standard)",
+      "slug": "plumbing-system-asa",
+      "division": "22-plumbing",
+      "category": "plumbing_system",
+      "manufacturer": "มาตรฐานสมาคมสถาปนิกสยามฯ (ASA) และผู้ผลิตท่อมาตรฐาน มอก.",
+      "masterformat": "22 00 00 - Plumbing",
+      "warranty_years": 1,
+      "standards": {
+        "asa": "มาตรฐานรายการประกอบแบบก่อสร้าง สมาคมสถาปนิกสยามฯ 2552 หมวด 22 00 00",
+        "tis": "มอก. 17-2532 (ท่อพีวีซีแข็ง), มอก. 277-2532 (ท่อเหล็กอาบสังกะสี), มอก. 249-2540 (ข้อต่อเหล็กหล่อเหนียว), มอก. 343-2523 (ก๊อกน้ำ)",
+        "dpt": "มาตรฐาน วสท. 3001-44"
+      },
+      "package_path": "packages/22-plumbing/plumbing-system-asa",
+      "spec_url": "https://raw.githubusercontent.com/PRIDA-TAKON/debim-specs-th/main/packages/22-plumbing/plumbing-system-asa/spec.yaml"
     },
     {
       "id": "SCG_PVC_CLASS_13_5",
@@ -441,20 +969,19 @@
       "spec_url": "https://raw.githubusercontent.com/PRIDA-TAKON/debim-specs-th/main/packages/22-plumbing/scg-pvc-pipe-class-13-5/spec.yaml"
     },
     {
-      "id": "COTTO_WC_DUAL_FLUSH",
-      "name": "โถสุขภัณฑ์นั่งราบประหยัดน้ำ คอตโต้ ระบบดูอัลฟลัช (COTTO Dual Flush Water Closet 3/4.5 Liters)",
-      "slug": "cotto-water-closet-dual-flush",
+      "id": "SCG_PVC_CLASS_8_5",
+      "name": "ท่อพีวีซีแข็งสำหรับงานระบายน้ำเสียและระบายอากาศ เอสซีจี ชั้น 8.5 (SCG Rigid PVC Pipe Class 8.5 Drainage & Vent)",
+      "slug": "scg-pvc-pipe-class-8-5",
       "division": "22-plumbing",
-      "category": "plumbing_fixtures",
-      "manufacturer": "SCG Ceramics Public Co., Ltd. (COTTO)",
-      "masterformat": "22 40 00 - Plumbing Fixtures",
-      "warranty_years": 5,
+      "category": "plumbing_drainage",
+      "manufacturer": "Thai Pipe Industry / Nawaplastic Industries (SCG)",
+      "masterformat": "22 13 16 - Sanitary Waste and Vent Piping",
+      "warranty_years": 10,
       "standards": {
-        "tis": "มอก. 792-2554 (เครื่องสุขภัณฑ์เซรามิก: โถส้วม)",
-        "water_sense": "ฉลากเขียวประหยัดน้ำเบอร์ 5"
+        "tis": "มอก. 17-2532 (ท่อพอลิไวนิลคลอไรด์แข็งสำหรับใช้เป็นท่อน้ำดื่มและระบายน้ำ)"
       },
-      "package_path": "packages/22-plumbing/cotto-water-closet-dual-flush",
-      "spec_url": "https://raw.githubusercontent.com/PRIDA-TAKON/debim-specs-th/main/packages/22-plumbing/cotto-water-closet-dual-flush/spec.yaml"
+      "package_path": "packages/22-plumbing/scg-pvc-pipe-class-8-5",
+      "spec_url": "https://raw.githubusercontent.com/PRIDA-TAKON/debim-specs-th/main/packages/22-plumbing/scg-pvc-pipe-class-8-5/spec.yaml"
     },
     {
       "id": "BCC_CABLE_THW",
@@ -474,6 +1001,23 @@
       "spec_url": "https://raw.githubusercontent.com/PRIDA-TAKON/debim-specs-th/main/packages/26-electrical/bangkok-cable-thw/spec.yaml"
     },
     {
+      "id": "ELECTRICAL_SYSTEM_ASA",
+      "name": "งานระบบไฟฟ้าและสื่อสาร (Electrical System - ASA Standard)",
+      "slug": "electrical-system-asa",
+      "division": "26-electrical",
+      "category": "electrical_system",
+      "manufacturer": "มาตรฐานสมาคมสถาปนิกสยามฯ (ASA) และผู้ผลิตอุปกรณ์ไฟฟ้ามาตรฐาน มอก.",
+      "masterformat": "26 00 00 - Electrical",
+      "warranty_years": 1,
+      "standards": {
+        "asa": "มาตรฐานรายการประกอบแบบก่อสร้าง สมาคมสถาปนิกสยามฯ 2552 หมวด 26 00 00",
+        "tis": "มอก. 11-2531 (สายไฟฟ้าทองแดงหุ้มฉนวน PVC), มอก. 770-2533 (ท่อร้อยสายไฟเหล็ก), มอก. 824-2551 (สวิตช์ไฟฟ้า), มอก. 166-2549 (เต้ารับ)",
+        "dpt": "มาตรฐานการติดตั้งทางไฟฟ้าสำหรับประเทศไทย (วสท. 2001-56), มาตรฐานการไฟฟ้านครหลวง/ส่วนภูมิภาค (MEA/PEA), NEC (National Electrical Code)"
+      },
+      "package_path": "packages/26-electrical/electrical-system-asa",
+      "spec_url": "https://raw.githubusercontent.com/PRIDA-TAKON/debim-specs-th/main/packages/26-electrical/electrical-system-asa/spec.yaml"
+    },
+    {
       "id": "PANASONIC_WIDE_SERIES",
       "name": "ชุดสวิตช์และเต้ารับไฟฟ้ามีกราวด์ พานาโซนิค ไวด์ซีรีส์ (Panasonic Wide Series Switches and Receptacles)",
       "slug": "panasonic-wide-series",
@@ -488,6 +1032,23 @@
       },
       "package_path": "packages/26-electrical/panasonic-wide-series",
       "spec_url": "https://raw.githubusercontent.com/PRIDA-TAKON/debim-specs-th/main/packages/26-electrical/panasonic-wide-series/spec.yaml"
+    },
+    {
+      "id": "TERMITE_CONTROL_ASA",
+      "name": "งานระบบป้องกันและกำจัดปลวก (Termite Control - ASA Standard)",
+      "slug": "termite-control-asa",
+      "division": "31-earthwork",
+      "category": "earthwork_termite_control",
+      "manufacturer": "มาตรฐานสมาคมสถาปนิกสยามฯ (ASA) และผู้ให้บริการที่ได้รับใบอนุญาตจาก อย.",
+      "masterformat": "31 31 16 - Termite Control",
+      "warranty_years": 3,
+      "standards": {
+        "asa": "มาตรฐานรายการประกอบแบบก่อสร้าง สมาคมสถาปนิกสยามฯ 2552 หมวด 31 31 16",
+        "tis": "มาตรฐานสำนักงานคณะกรรมการอาหารและยา (อย.) กระทรวงสาธารณสุข",
+        "dpt": "มาตรฐานกรมวิทยาศาสตร์การแพทย์ กระทรวงสาธารณสุข"
+      },
+      "package_path": "packages/31-earthwork/termite-control-asa",
+      "spec_url": "https://raw.githubusercontent.com/PRIDA-TAKON/debim-specs-th/main/packages/31-earthwork/termite-control-asa/spec.yaml"
     }
   ]
 }
