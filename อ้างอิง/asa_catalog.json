@@ -1,0 +1,530 @@
+[
+  {
+    "code": "01 11 00",
+    "thai_title": "ขอบเขตของงานทั่วไป",
+    "eng_title": "Summary of Work",
+    "start_page": 13,
+    "end_page": 16,
+    "pages": [
+      13,
+      14,
+      15,
+      16
+    ]
+  },
+  {
+    "code": "01 35 53",
+    "thai_title": "ระบบความปลอดภัย",
+    "eng_title": "Security Procedures",
+    "start_page": 17,
+    "end_page": 20,
+    "pages": [
+      17,
+      18,
+      19,
+      20
+    ]
+  },
+  {
+    "code": "01 42 19",
+    "thai_title": "มาตรฐานอ้างอิง",
+    "eng_title": "Reference Standards",
+    "start_page": 21,
+    "end_page": 22,
+    "pages": [
+      21,
+      22
+    ]
+  },
+  {
+    "code": "01 45 00",
+    "thai_title": "การควบคุมคุณภาพ",
+    "eng_title": "Quality Control",
+    "start_page": 23,
+    "end_page": 28,
+    "pages": [
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ]
+  },
+  {
+    "code": "01 50 00",
+    "thai_title": "สิ่งอํานวยความสะดวกชั่วคราว",
+    "eng_title": "Temporary Facilities and Controls",
+    "start_page": 29,
+    "end_page": 32,
+    "pages": [
+      29,
+      30,
+      31,
+      32
+    ]
+  },
+  {
+    "code": "01 60 00",
+    "thai_title": "วัสดุและอุปกรณ์",
+    "eng_title": "Product Requirements",
+    "start_page": 33,
+    "end_page": 34,
+    "pages": [
+      33,
+      34
+    ]
+  },
+  {
+    "code": "01 77 00",
+    "thai_title": "การส่งมอบงาน",
+    "eng_title": "Closeout Procedures",
+    "start_page": 35,
+    "end_page": 38,
+    "pages": [
+      35,
+      36,
+      37,
+      38
+    ]
+  },
+  {
+    "code": "02 21 00",
+    "thai_title": "การสํารวจรังวัด",
+    "eng_title": "Surveys",
+    "start_page": 39,
+    "end_page": 40,
+    "pages": [
+      39,
+      40
+    ]
+  },
+  {
+    "code": "02 41 00",
+    "thai_title": "การรื้อถอน",
+    "eng_title": "Demolition",
+    "start_page": 41,
+    "end_page": 42,
+    "pages": [
+      41,
+      42
+    ]
+  },
+  {
+    "code": "03 11 00",
+    "thai_title": "งานไม้แบบ",
+    "eng_title": "Concrete Forming",
+    "start_page": 43,
+    "end_page": 46,
+    "pages": [
+      43,
+      44,
+      45,
+      46
+    ]
+  },
+  {
+    "code": "03 20 00",
+    "thai_title": "งานเหล็กเสริมคอนกรีต",
+    "eng_title": "Concrete Reinforcing",
+    "start_page": 47,
+    "end_page": 50,
+    "pages": [
+      47,
+      48,
+      49,
+      50
+    ]
+  },
+  {
+    "code": "03 30 00",
+    "thai_title": "งานคอนกรีตเทในที่",
+    "eng_title": "Cast-in-Place Concrete",
+    "start_page": 51,
+    "end_page": 56,
+    "pages": [
+      51,
+      52,
+      53,
+      54,
+      55,
+      56
+    ]
+  },
+  {
+    "code": "03 39 00",
+    "thai_title": "การบ่มคอนกรีต",
+    "eng_title": "Concrete Curing",
+    "start_page": 57,
+    "end_page": 58,
+    "pages": [
+      57,
+      58
+    ]
+  },
+  {
+    "code": "03 41 13",
+    "thai_title": "งานพื้นคอนกรีตสําเร็จรูป",
+    "eng_title": "Precast Concrete Hollow Core Planks",
+    "start_page": 59,
+    "end_page": 60,
+    "pages": [
+      59,
+      60
+    ]
+  },
+  {
+    "code": "04 21 13",
+    "thai_title": "ผนังก่ออิฐ",
+    "eng_title": "Brick Masonry",
+    "start_page": 61,
+    "end_page": 64,
+    "pages": [
+      61,
+      62,
+      63,
+      64
+    ]
+  },
+  {
+    "code": "04 22 19",
+    "thai_title": "ผนังก่อคอนกรีตมวลเบา",
+    "eng_title": "Autoclaved Aerated Concrete Masonry",
+    "start_page": 65,
+    "end_page": 68,
+    "pages": [
+      65,
+      66,
+      67,
+      68
+    ]
+  },
+  {
+    "code": "05 12 00",
+    "thai_title": "งานโครงสร้างเหล็ก",
+    "eng_title": "Structural Steel Framing",
+    "start_page": 69,
+    "end_page": 72,
+    "pages": [
+      69,
+      70,
+      71,
+      72
+    ]
+  },
+  {
+    "code": "06 40 00",
+    "thai_title": "งานไม้สําหรับงานสถาปัตยกรรม",
+    "eng_title": "Architectural Woodwork",
+    "start_page": 73,
+    "end_page": 76,
+    "pages": [
+      73,
+      74,
+      75,
+      76
+    ]
+  },
+  {
+    "code": "07 10 00",
+    "thai_title": "งานป้องกันความชื้นและการกันซึม",
+    "eng_title": "Dampproofing and Waterproofing",
+    "start_page": 77,
+    "end_page": 78,
+    "pages": [
+      77,
+      78
+    ]
+  },
+  {
+    "code": "07 20 00",
+    "thai_title": "งานป้องกันความร้อน",
+    "eng_title": "Thermal Protection",
+    "start_page": 79,
+    "end_page": 80,
+    "pages": [
+      79,
+      80
+    ]
+  },
+  {
+    "code": "07 32 00",
+    "thai_title": "งานหลังคากระเบื้อง",
+    "eng_title": "Roof Tiles",
+    "start_page": 81,
+    "end_page": 82,
+    "pages": [
+      81,
+      82
+    ]
+  },
+  {
+    "code": "08 11 00",
+    "thai_title": "งานประตูและวงกบเหล็ก",
+    "eng_title": "Metal Doors and Frames",
+    "start_page": 83,
+    "end_page": 84,
+    "pages": [
+      83,
+      84
+    ]
+  },
+  {
+    "code": "08 11 16",
+    "thai_title": "งานประตูและวงกบอลูมิเนียม",
+    "eng_title": "Aluminium Doors and Frames",
+    "start_page": 85,
+    "end_page": 88,
+    "pages": [
+      85,
+      86,
+      87,
+      88
+    ]
+  },
+  {
+    "code": "08 14 00",
+    "thai_title": "งานประตูไม้",
+    "eng_title": "Wood Doors",
+    "start_page": 89,
+    "end_page": 92,
+    "pages": [
+      89,
+      90,
+      91,
+      92
+    ]
+  },
+  {
+    "code": "08 71 00",
+    "thai_title": "อุปกรณ์ประตู",
+    "eng_title": "Door Hardware",
+    "start_page": 93,
+    "end_page": 98,
+    "pages": [
+      93,
+      94,
+      95,
+      96,
+      97,
+      98
+    ]
+  },
+  {
+    "code": "08 80 00",
+    "thai_title": "กระจก",
+    "eng_title": "Glazing",
+    "start_page": 99,
+    "end_page": 100,
+    "pages": [
+      99,
+      100
+    ]
+  },
+  {
+    "code": "08 91 00",
+    "thai_title": "งานบานเกล็ด",
+    "eng_title": "Louvers",
+    "start_page": 101,
+    "end_page": 102,
+    "pages": [
+      101,
+      102
+    ]
+  },
+  {
+    "code": "09 24 00",
+    "thai_title": "งานฉาบปูน",
+    "eng_title": "Portland Cement Plastering",
+    "start_page": 103,
+    "end_page": 106,
+    "pages": [
+      103,
+      104,
+      105,
+      106
+    ]
+  },
+  {
+    "code": "09 29 00",
+    "thai_title": "งานยิบซั่มบอร์ด",
+    "eng_title": "Gypsum Board",
+    "start_page": 107,
+    "end_page": 110,
+    "pages": [
+      107,
+      108,
+      109,
+      110
+    ]
+  },
+  {
+    "code": "09 30 00",
+    "thai_title": "งานกระเบื้อง",
+    "eng_title": "Tiling",
+    "start_page": 111,
+    "end_page": 114,
+    "pages": [
+      111,
+      112,
+      113,
+      114
+    ]
+  },
+  {
+    "code": "09 54 26",
+    "thai_title": "งานฝ้าระแนงไม้",
+    "eng_title": "Linear Wood Ceiling",
+    "start_page": 115,
+    "end_page": 116,
+    "pages": [
+      115,
+      116
+    ]
+  },
+  {
+    "code": "09 63 40",
+    "thai_title": "งานพื้นปูหิน",
+    "eng_title": "Stone Flooring",
+    "start_page": 117,
+    "end_page": 120,
+    "pages": [
+      117,
+      118,
+      119,
+      120
+    ]
+  },
+  {
+    "code": "09 64 00",
+    "thai_title": "งานพื้น ไม้",
+    "eng_title": "Wood Flooring",
+    "start_page": 121,
+    "end_page": 124,
+    "pages": [
+      121,
+      122,
+      123,
+      124
+    ]
+  },
+  {
+    "code": "09 66 43",
+    "thai_title": "งานพื้นหินล้าง / กรวดล้าง",
+    "eng_title": "Washed Aggregate Flooring",
+    "start_page": 125,
+    "end_page": 128,
+    "pages": [
+      125,
+      126,
+      127,
+      128
+    ]
+  },
+  {
+    "code": "09 68 00",
+    "thai_title": "งานพรม",
+    "eng_title": "Carpeting",
+    "start_page": 129,
+    "end_page": 130,
+    "pages": [
+      129,
+      130
+    ]
+  },
+  {
+    "code": "09 91 00",
+    "thai_title": "งานทาสี",
+    "eng_title": "Painting",
+    "start_page": 131,
+    "end_page": 134,
+    "pages": [
+      131,
+      132,
+      133,
+      134
+    ]
+  },
+  {
+    "code": "10 99 00",
+    "thai_title": "งานต้นไม้",
+    "eng_title": "Softscape",
+    "start_page": 135,
+    "end_page": 140,
+    "pages": [
+      135,
+      136,
+      137,
+      138,
+      139,
+      140
+    ]
+  },
+  {
+    "code": "12 50 00",
+    "thai_title": "งานเฟอร์นิเจอร์",
+    "eng_title": "Furnitures",
+    "start_page": 141,
+    "end_page": 144,
+    "pages": [
+      141,
+      142,
+      143,
+      144
+    ]
+  },
+  {
+    "code": "22 00 00",
+    "thai_title": "งานระบบสุขาภิบาล",
+    "eng_title": "Plumbing",
+    "start_page": 145,
+    "end_page": 152,
+    "pages": [
+      145,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152
+    ]
+  },
+  {
+    "code": "22 40 00",
+    "thai_title": "สุขภัณฑ์",
+    "eng_title": "Plumbing Fixtures",
+    "start_page": 153,
+    "end_page": 154,
+    "pages": [
+      153,
+      154
+    ]
+  },
+  {
+    "code": "26 00 00",
+    "thai_title": "งานระบบไฟฟ้า",
+    "eng_title": "Electrical",
+    "start_page": 155,
+    "end_page": 160,
+    "pages": [
+      155,
+      156,
+      157,
+      158,
+      159,
+      160
+    ]
+  },
+  {
+    "code": "31 31 16",
+    "thai_title": "การป้องกันปลวก",
+    "eng_title": "Termite Control",
+    "start_page": 161,
+    "end_page": 162,
+    "pages": [
+      161,
+      162
+    ]
+  }
+]

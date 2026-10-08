@@ -15,16 +15,37 @@ REQUIRED_FIELDS = ["id", "name", "category", "masterformat"]
 REQUIRED_SECTIONS = ["general_properties", "surface_preparation", "application_system"]
 
 
-def validate_single_spec(file_path: Path) -> list[str]:
+def check_corrupted_characters(data, path_str="") -> list[str]:
+    """Check for corrupted characters or Thai PUA codes (U+F700 - U+F71A, U+FFFD)."""
+    issues = []
+    if isinstance(data, str):
+        for ch in data:
+            code = ord(ch)
+            if 0xF700 <= code <= 0xF71A:
+                issues.append(f"Found unnormalized Thai PUA character (U+{code:04X}) in '{path_str}'")
+                break
+            if code == 0xFFFD:
+                issues.append(f"Found replacement character (U+FFFD) in '{path_str}'")
+                break
+    elif isinstance(data, list):
+        for idx, item in enumerate(data):
+            issues.extend(check_corrupted_characters(item, f"{path_str}[{idx}]"))
+    elif isinstance(data, dict):
+        for k, v in data.items():
+            issues.extend(check_corrupted_characters(v, f"{path_str}.{k}"))
+    return issues
+
+
+def validate_single_spec(file_path: Path) -> tuple[list[str], dict | None]:
     errors = []
     try:
         with open(file_path, "r", encoding="utf-8") as f:
             data = yaml.safe_load(f)
     except Exception as e:
-        return [f"YAML parsing error: {e}"]
+        return [f"YAML parsing error: {e}"], None
 
     if not isinstance(data, dict):
-        return ["Root element must be a dictionary/mapping"]
+        return ["Root element must be a dictionary/mapping"], None
 
     for field in REQUIRED_FIELDS:
         if field not in data or not str(data[field]).strip():
@@ -49,8 +70,46 @@ def validate_single_spec(file_path: Path) -> list[str]:
 
     # Validate ID convention (uppercase alphanumeric and underscores)
     spec_id = data.get("id", "")
-    if spec_id and not spec_id.replace("_", "").isalnum():
-        errors.append(f"Spec ID '{spec_id}' should use alphanumeric characters and underscores")
+    if spec_id:
+        if not spec_id.replace("_", "").isalnum():
+            errors.append(f"Spec ID '{spec_id}' should use alphanumeric characters and underscores")
+        if spec_id != spec_id.upper():
+            errors.append(f"Spec ID '{spec_id}' must be in UPPERCASE")
+
+    # Check for corrupted Thai characters or PUA encoding
+    char_issues = check_corrupted_characters(data, "root")
+    errors.extend(char_issues)
+
+    return errors, data
+
+
+def validate_registry_sync(root: Path, disk_spec_ids: dict[str, Path]) -> list[str]:
+    """Validate that registry.json is synced with actual spec files on disk."""
+    errors = []
+    reg_file = root / "registry.json"
+    if not reg_file.exists():
+        return errors
+
+    try:
+        import json
+        with open(reg_file, "r", encoding="utf-8") as f:
+            reg_data = json.load(f)
+    except Exception as e:
+        return [f"registry.json parsing error: {e}"]
+
+    packages = reg_data.get("packages", [])
+    reg_ids = {pkg.get("id"): pkg for pkg in packages if "id" in pkg}
+
+    # Check for IDs on disk missing from registry
+    for sid, spath in disk_spec_ids.items():
+        if sid not in reg_ids:
+            rel = spath.relative_to(root)
+            errors.append(f"Spec '{sid}' ({rel}) is missing from registry.json (run scripts/build_repo.py to sync)")
+
+    # Check for IDs in registry missing from disk
+    for rid, rpkg in reg_ids.items():
+        if rid not in disk_spec_ids:
+            errors.append(f"Registry lists '{rid}' but no corresponding spec.yaml found on disk")
 
     return errors
 
@@ -70,9 +129,20 @@ def main():
     print(f"Auditing {len(spec_files)} specification packages in debim-specs-th...")
 
     total_errors = 0
+    seen_ids: dict[str, Path] = {}
+
     for sf in sorted(spec_files):
         rel_path = sf.relative_to(root)
-        errs = validate_single_spec(sf)
+        errs, spec_data = validate_single_spec(sf)
+
+        if spec_data and "id" in spec_data:
+            spec_id = spec_data["id"]
+            if spec_id in seen_ids:
+                prev_path = seen_ids[spec_id].relative_to(root)
+                errs.append(f"Duplicate Spec ID '{spec_id}' already defined in '{prev_path}'")
+            else:
+                seen_ids[spec_id] = sf
+
         if errs:
             print(f"❌ [FAIL] {rel_path}:")
             for e in errs:
@@ -80,6 +150,17 @@ def main():
             total_errors += len(errs)
         else:
             print(f"✅ [PASS] {rel_path}")
+
+    # Check registry synchronization
+    print("\nAuditing registry.json synchronization...")
+    reg_errors = validate_registry_sync(root, seen_ids)
+    if reg_errors:
+        print("❌ [FAIL] registry.json is out of sync:")
+        for re in reg_errors:
+            print(f"    - {re}")
+        total_errors += len(reg_errors)
+    else:
+        print("✅ [PASS] registry.json is fully synchronized!")
 
     if total_errors > 0:
         print(f"\nAudit failed with {total_errors} errors.")
