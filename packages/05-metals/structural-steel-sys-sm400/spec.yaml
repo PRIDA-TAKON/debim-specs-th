@@ -1,0 +1,22 @@
+id: STRUCTURAL_STEEL_SYS_SM400
+name: เหล็กโครงสร้างรูปพรรณรีดร้อน เอสวายเอส เกรด SM400 (SYS Hot-Rolled Structural Steel SM400/SS400)
+manufacturer: Siam Yamato Steel Co., Ltd. (SYS Thailand)
+category: metals_structural
+masterformat: 05 12 00 - Structural Steel Framing
+warranty_years: 20
+standards:
+  tis: มอก. 1227-2558 (เหล็กโครงสร้างรูปพรรณรีดร้อน)
+  jis: JIS G 3106 (SM400) / JIS G 3101 (SS400)
+  astm: ASTM A36 / A992
+general_properties:
+- เหล็กรูปพรรณรีดร้อนหน้าตัด H-Beam, I-Beam, Channel และ Angle มาตรฐาน มอก. 1227 เกรด SM400 (เหมาะสำหรับงานเชื่อม)
+- กำลังจุดคราก (Yield Strength) ไม่น้อยกว่า 245 N/mm2 (หนาไม่เกิน 16 มม.) และกำลังต้านแรงดึงสูงสุด 400-510 N/mm2
+- ผ่านการตรวจสอบองค์ประกอบทางเคมี คาร์บอนสมมูล (Carbon Equivalent CE) ต่ำ ไม่เปราะง่าย เมื่องานเชื่อมประสาน
+surface_preparation:
+- ทำความสะอาดพื้นผิวเหล็ก ขจัดคราบไขมัน คราบน้ำมัน และสิ่งสกปรก
+- พ่นขัดทรายทำความสะอาดผิวเหล็กระดับ Sa 2.5 (Near-White Metal Blast Cleaning) ตามมาตรฐาน ISO 8501-1 ก่อนทาสีกันสนิม
+application_system:
+- การประกอบและเชื่อมโครงสร้างเหล็ก ดำเนินการโดยช่างเชื่อมที่ผ่านการรับรองตามมาตรฐาน AWS D1.1
+- ทาสีรองพื้นกันสนิม Inorganic Zinc Rich Primer หนา 75 ไมครอน ทันทีหลังขัดพ่นทราย
+- ทาสีชั้นกลาง Epoxy Intermediate Coat หนา 100 ไมครอน และสีทับหน้า Polyurethane Topcoat หนา 50 ไมครอน รวมความหนาฟิล์มแห้งไม่ต่ำกว่า
+  225 ไมครอน

@@ -1,0 +1,21 @@
+id: CONCRETE_CPAC_WATERPROOF
+name: คอนกรีตกันซึมผสมเสร็จ ซีแพค (CPAC Waterproof Ready-Mixed Concrete)
+manufacturer: The Concrete Products and Aggregate Co., Ltd. (CPAC / SCG)
+category: concrete_waterproof
+masterformat: 03 30 00 - Cast-in-Place Concrete
+warranty_years: 10
+standards:
+  tis: มอก. 213-2552 (คอนกรีตผสมเสร็จ)
+  din: DIN 1048 (Water Permeability Test under 5 bar pressure)
+general_properties:
+- คอนกรีตผสมน้ำยากันซึมและสารลดฟองอากาศ มีค่าความพรุนต่ำ มีความทึบน้ำสูง (Waterproofing Density)
+- กำลังอัดไม่น้อยกว่า 240 ถึง 300 ksc (Cylinder) เหมาะสำหรับสระว่ายน้ำ ถังเก็บน้ำใต้ดิน และชั้นใต้ดิน (Basement)
+- ค่ายุบตัว 12.5 ± 2.5 ซม. ไหลลื่นเข้าแบบได้ง่าย ลดโอกาสเกิดโพรงรังผึ้ง (Honeycomb)
+surface_preparation:
+- ตรวจสอบการติดตั้งแถบกันน้ำขยายตัว (Swellable Waterstop) หรือแผ่นยาง Rubber/PVC Waterstop บริเวณรอยต่อการเทคอนกรีต (Construction
+  Joint)
+- ยึด Waterstop ให้แน่นหนาตรงกึ่งกลางรอยต่อ ไม่ล้มหรือเอียงขณะเทคอนกรีต
+application_system:
+- วางแผนการเทคอนกรีตให้ต่อเนื่อง รอยต่อระหว่างรถต้องไม่เกิน 45 นาที เพื่อป้องกันการเกิด Cold Joint
+- จี้เขย่าด้วยเครื่องสั่นอย่างประณีตบริเวณขอบแบบหล่อและรอบ Waterstop
+- บ่มน้ำชื้นต่อเนื่องยาวนานเป็นพิเศษไม่น้อยกว่า 14 วันเพื่อลดรอยแตกร้าวจากการหดตัวแบบแห้ง (Drying Shrinkage Cracks)

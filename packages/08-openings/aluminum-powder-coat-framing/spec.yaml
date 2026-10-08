@@ -1,0 +1,20 @@
+id: ALUMINUM_POWDER_COAT
+name: กรอบบานประตูหน้าต่างอะลูมิเนียมอบสีพาวเดอร์โค้ท (Powder Coated Architectural Aluminum Framing System)
+manufacturer: มาตรฐาน มอก. เช่น ธาราทอง / เมืองทอง / Schüco / TOSTEM
+category: openings_aluminum
+masterformat: 08 41 13 - Aluminum-Framed Entrances and Storefronts
+warranty_years: 10
+standards:
+  tis: มอก. 284-2560 (อะลูมิเนียมอัลลอยอัดขึ้นรูปสำหรับงานสถาปัตยกรรม)
+  aama: AAMA 2604 (High Performance Organic Coatings on Aluminum Extrusions)
+general_properties:
+- อะลูมิเนียมอัลลอยเกรด 6063-T5 ความหนาไม่น้อยกว่า 1.5 มม. สำหรับหน้าต่าง และ 2.0 มม. สำหรับประตูและโครงสร้างรับแรงลม
+- พ่นเคลือบสีฝุ่นอบความร้อน (Polyester Powder Coating) ความหนาฟิล์มสีไม่น้อยกว่า 60-80 ไมครอน ทนกรด-ด่างและรังสี UV
+- ใช้ปะเก็นยาง EPDM คุณภาพสูงรอบขอบกระจกและกรอบบาน ป้องกันน้ำรั่วซึมและเสียงรบกวน
+surface_preparation:
+- ตรวจเช็คช่องเปิดผนัง (Rough Opening) ให้ได้ฉาก แนวดิ่ง และระดับ คลาดเคลื่อนไม่เกิน ±3 มม.
+- ผนังรอบช่องเปิดต้องฉาบปูนเรียบและจับเซี้ยมอย่างประณีต
+application_system:
+- ติดตั้งวงกบด้วยพุกเหล็กและสกรูสแตนเลส SUS304 ระยะห่างไม่เกิน 50 ซม. ตลอดแนว
+- ฉีดอุดช่องว่างระหว่างวงกบกับผนังด้วยโฟมโพลียูรีเทน (PU Foam) และปิดทับด้วยซิลิโคนกันสภาพอากาศ (Weatherproof Neutral Silicone)
+- ติดตั้งฮาร์ดแวร์ บานพับ ล็อค และลูกล้อสแตนเลสเกรดพรีเมียม ปรับตั้งบานให้เปิดปิดนุ่มนวลแนบสนิท

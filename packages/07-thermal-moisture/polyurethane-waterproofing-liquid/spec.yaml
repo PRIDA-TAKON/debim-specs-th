@@ -1,0 +1,21 @@
+id: PU_WATERPROOFING_LIQUID
+name: ระบบกันซึมโพลียูรีเทนไร้รอยต่อชนิดทา (Liquid Applied Polyurethane Waterproofing Membrane)
+manufacturer: Sika / Lanko / Bostik / Crocodile
+category: moisture_waterproofing
+masterformat: 07 14 16 - Cold Fluid-Applied Waterproofing
+warranty_years: 5
+standards:
+  astm: ASTM C836 (High Solids Cold Liquid-Applied Elastomeric Waterproofing)
+  bs: BS EN 14891
+general_properties:
+- โพลียูรีเทนกันซึมชนิดยืดหยุ่นสูงพิเศษ มีค่าความยืดหยุ่น (Elongation at Break) สูงกว่า 400%
+- ฟิล์มแห้งไร้รอยต่อ ทนแดด ทนรังสี UV และทนต่อสารเคมีในน้ำขัง
+- ประสานรอยแตกร้าวคอนกรีต (Crack Bridging Capability) ได้ดีเยี่ยมถึง 2 มม.
+surface_preparation:
+- พื้นผิวต้องแข็งแรง สะอาด ปราศจากคราบฝุ่น น้ำมัน น้ำยาบ่มคอนกรีต และแห้งสนิท
+- ซ่อมแซมรอยแตกร้าวและขัดลบเสี้ยนคอนกรีตก่อนลงมือ
+- ทารองพื้น PU Primer ชนิดแทรกซึมลึก จำนวน 1 เที่ยว
+application_system:
+- ทาชั้นแรกพร้อมปูเสริมแรงด้วยแผ่นตาข่ายไฟเบอร์กลาส (Fiberglass Mesh) ตามรอยต่อและมุม
+- ทาทับชั้นที่สองและสามในทิศทางตั้งฉากกับเที่ยวแรก รวมความหนาฟิล์มแห้งไม่น้อยกว่า 1.5 มม.
+- ทิ้งให้แห้งตัวสมบูรณ์ 72 ชั่วโมงก่อนทำการทดสอบขังน้ำหรือปูกระเบื้องทับ

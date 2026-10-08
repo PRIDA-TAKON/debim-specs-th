@@ -1,0 +1,20 @@
+id: PANASONIC_WIDE_SERIES
+name: ชุดสวิตช์และเต้ารับไฟฟ้ามีกราวด์ พานาโซนิค ไวด์ซีรีส์ (Panasonic Wide Series Switches and Receptacles)
+manufacturer: Panasonic Life Solutions (Thailand) Co., Ltd.
+category: electrical_devices
+masterformat: 26 27 26 - Wiring Devices
+warranty_years: 5
+standards:
+  tis: มอก. 824-2551 (สวิตช์ไฟฟ้า) / มอก. 166-2549 (เต้ารับและเต้าเสียบ)
+  iec: IEC 60669-1 / IEC 60884-1
+general_properties:
+- อุปกรณ์สวิตช์และเต้ารับหน้าสัมผัสกว้าง ดีไซน์เรียบหรู ผลิตจากพลาสติกโพลีคาร์บอเนต (PC) ไม่ลามไฟ ทนทานสูง
+- เต้ารับคู่มีกราวด์ (Duplex Universal Receptacle with Ground) รองรับกระแสไฟฟ้า 16A 250V พร้อมม่านนิรภัย (Safety Shutter)
+- สวิตช์ไฟรองรับกระแส 16A 250V หน้าสัมผัสเงินบริสุทธิ์ ทนทานต่อการเปิดปิดมากกว่า 40,000 ครั้ง
+surface_preparation:
+- กล่องฝังผนัง (Handy Box) ติดตั้งได้ระดับ แนวดิ่ง และระดับความสูงตามแบบสถาปัตยกรรม (สวิตช์สูง 1.10-1.20 ม., เต้ารับสูง 0.30-0.40
+  ม.)
+application_system:
+- ต่อสายไฟเข้ารูเสียบล็อคอัตโนมัติ (Quick Connect Terminal) ปอกฉนวนตามระยะที่ระบุหลังอุปกรณ์ แน่นหนา ไม่หลวมคลอน
+- ขันยึดหน้ากากและโครงเข้ากับกล่องฝังให้แนบสนิทกับผิวผนัง
+- ทดสอบขั้วไฟฟ้า (Polarity Test) ตรวจสอบ L, N, G ถูกต้อง และทดสอบการทำงานของกราวด์อย่างสมบูรณ์

@@ -1,0 +1,24 @@
+id: POST_TENSION_UNBONDED
+name: ระบบพื้นคอนกรีตอัดแรงชนิดดึงทีหลังแบบไร้แรงยึดเหนี่ยว (Unbonded Post-Tensioned Flat Plate System)
+manufacturer: Thai Post-Tension Contractors Association / VSL / Freyssinet Standard
+category: concrete_prestressed
+masterformat: 03 38 16 - Unbonded Post-Tensioned Concrete
+warranty_years: 10
+standards:
+  tis: มอก. 420-2540 (ลวดเหล็กกล้าตีเกลียวสำหรับคอนกรีตอัดแรง)
+  astm: ASTM A416 (Grade 270 Low Relaxation 7-wire Strand)
+  pti: PTI Post-Tensioning Manual 6th Edition
+general_properties:
+- ลวดเหล็กตีเกลียว 7 เส้น ชนิดคลายความเค้นต่ำ (Unbonded 7-wire Low Relaxation Strand) ขนาดเส้นผ่านศูนย์กลาง 0.5 นิ้ว (12.7
+  มม.) เกรด 270
+- เคลือบจาระบีป้องกันสนิมชนิดพิเศษและหุ้มด้วยปลอกพลาสติกพอลิเอทิลีน (PE Sheath) ความหนาไม่น้อยกว่า 1.0 มม. ตลอดความยาวลวด
+- หัวยึดสมอยึดปลาย (Anchorages) และลิ่มยึด (Wedges) ได้มาตรฐานความปลอดภัย PTI สำหรับรับแรงดึงสูง
+surface_preparation:
+- ติดตั้งไม้แบบท้องพื้นให้ได้ระดับและทำความสะอาด ปราศจากตะปูและของมีคมที่อาจทำให้ปลอกพลาสติกฉีกขาด
+- วางเก้าอี้รองลวด (Chair Supports) เพื่อจัดทรงและระดับโปรไฟล์พาราโบลาของแนวลวดตามแบบคำนวณของวิศวกรอย่างแม่นยำ
+application_system:
+- ร้อยและขึงลวด Tendons ตามระยะและแนวระบุ ตรวจสอบความสมบูรณ์ของปลอกหุ้ม หากฉีกขาดต้องพันเทปกันน้ำให้แน่น
+- เมื่อเทคอนกรีตและกำลังอัดลูกปูนหน้างานถึงเกณฑ์ (ไม่น้อยกว่า 175 ksc ที่ 3-4 วัน) ให้ทำการดึงลวดขั้นแรก (Stressing Stage
+  1)
+- ทำการดึงลวดเต็มพิกัด (Final Stressing) พร้อมจดบันทึกค่ายืดตัว (Elongation) เทียบกับการคำนวณ (คลาดเคลื่อนไม่เกิน ±7%)
+- ตัดปลายลวดและอุดหัวสมอด้วยปูนเกราท์ไม่หดตัว (Non-Shrink Grout) เกรดกำลังสูงเพื่อกันน้ำและความชื้นเข้าทำลาย

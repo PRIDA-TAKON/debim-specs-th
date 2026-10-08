@@ -1,0 +1,19 @@
+id: BLUESCOPE_COLORBOND_SHEET
+name: แผ่นหลังคาเหล็กรีดลอน บลูสโคป คัลเลอร์บอนด์ (BlueScope Colorbond Clean Colorbond Steel Sheet 0.48mm TCT)
+manufacturer: NS BlueScope (Thailand) Limited
+category: thermal_roofing
+masterformat: 07 41 13 - Metal Roof Panels
+warranty_years: 25
+standards:
+  tis: มอก. 2753-2559 (เหล็กกล้าแผ่นรีดเย็นเคลือบโลหะผสมสังกะสี-อะลูมิเนียมเคลือบสี)
+  as: AS 1397 / AS 2728
+general_properties:
+- เหล็กกล้ากำลังสูง G550 เคลือบโลหะผสมซิงค์-อะลูมิเนียม Zincalume (Zincalume AZ150 ไม่น้อยกว่า 150 กรัม/ตร.ม.)
+- เคลือบสีอบล่วงหน้าระบบ Clean Colorbond ป้องกันคราบฝุ่นเกาะและสะท้อนรังสีความร้อนด้วยเทคโนโลยี Thermatech
+- ความหนารวมก่อนเคลือบสี (BMT) ไม่น้อยกว่า 0.42 มม. และความหนารวมเคลือบสี (TCT) ไม่น้อยกว่า 0.48 มม.
+surface_preparation:
+- ตรวจสอบแนวแปหลังคาให้ได้ระดับ แนวระนาบตรง และมีระยะห่างแป (Purlin Spacing) ตามพิกัดรับน้ำหนัก
+application_system:
+- มุงแผ่นหลังคาตามทิศทางสวนลม รอยทับซ้อนด้านข้างสนิทแนบแน่น
+- ยึดแผ่นหลังคาด้วยสกรูเกลียวปล่อยเคลือบกันสนิม Class 3 ตาม AS 3566 พร้อมแหวนยาง EPDM คุณภาพสูง
+- กวาดเศษขี้ตะไบเหล็ก (Swawf) ออกจากหลังคาทุกวันหลังเสร็จงานเพื่อป้องกันการเกิดสนิมจุดแดง

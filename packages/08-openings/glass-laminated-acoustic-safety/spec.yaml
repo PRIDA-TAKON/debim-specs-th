@@ -1,0 +1,19 @@
+id: GLASS_LAMINATED_ACOUSTIC
+name: กระจกนิรภัยลามิเนตกันเสียงและความปลอดภัย (Acoustic Safety Laminated Glass 6+0.76PVB+6mm)
+manufacturer: AGC Glass Thailand / Saint-Gobain Glass / TGSG
+category: openings_glass
+masterformat: 08 80 00 - Glazing
+warranty_years: 5
+standards:
+  tis: มอก. 1222-2560 (กระจกลามิเนต)
+  astm: ASTM C1172
+general_properties:
+- กระจกใส 2 แผ่นประกบกันด้วยแผ่นฟิล์มโพลีไวนิลบิวทิรอลชนิดกันเสียง (Acoustic PVB Interlayer) ความหนาฟิล์มไม่น้อยกว่า 0.76
+  มม.
+- ช่วยลดเสียงรบกวนจากภายนอก (Sound Transmission Class STC) สูงกว่ากระจกธรรมดาอย่างมีนัยสำคัญ
+- เมื่อกระจกแตก แผ่นฟิล์มจะยึดเศษกระจกไว้ไม่ให้ร่วงหล่นลงมาทำอันตราย และป้องกันการบุกรุก
+surface_preparation:
+- ตรวจเช็คร่องรับกระจกให้มีช่องว่างระบายน้ำและความชื้น ไม่ให้ฟิล์ม PVB สัมผัสความชื้นขังต่อเนื่อง
+application_system:
+- ใช้ซิลิโคนชนิดไม่ทำปฏิกิริยากับฟิล์ม PVB (PVB Compatible Non-Acetic Silicone) เท่านั้น
+- เว้นระยะขอบรอบกระจกอย่างน้อย 5 มม. เพื่อรองรับการขยายตัวทางความร้อน

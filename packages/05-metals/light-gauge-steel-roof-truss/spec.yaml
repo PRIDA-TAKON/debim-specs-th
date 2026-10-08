@@ -1,0 +1,19 @@
+id: LIGHT_GAUGE_STEEL_TRUSS
+name: โครงหลังคาเหล็กกล้ากำลังสูงเคลือบกันสนิมกัลวาไนซ์ (Smart Truss Light Gauge High-Tensile Steel)
+manufacturer: SCG Roofing / Lysaght / BlueScope
+category: metals_roof_truss
+masterformat: 05 40 00 - Cold-Formed Metal Framing
+warranty_years: 10
+standards:
+  tis: มอก. 2228-2548 (เหล็กกล้าแผ่นรีดเย็นเคลือบสังกะสี)
+  astm: ASTM A792 (Grade G550)
+  as: AS 1397
+general_properties:
+- เหล็กกล้าขึ้นรูปเย็นกำลังดึงสูง เกรด G550 (Yield Strength ไม่ต่ำกว่า 550 MPa)
+- เคลือบสารป้องกันสนิมโลหะผสมสังกะสี-อะลูมิเนียม (Zacs / Zincalume Coating Class AZ100 หรือ AZ150)
+- ออกแบบโครงสร้างด้วยระบบคอมพิวเตอร์ตามแรงลมและน้ำหนักมุงจริง ชิ้นส่วนผลิตตัดเจาะจากโรงงาน
+surface_preparation:
+- ตรวจเช็คระดับหลังคาน ค.ส.ล. และติดตั้งแผ่นเพลทพุกเหล็กกลเชิงกลหรือพุกเคมีตามตำแหน่งวิศวกรกำหนด
+application_system:
+- ยึดประกอบโครงสร้างถัก (Truss) ด้วยสกรูเกลียวปล่อยเคลือบกันสนิม Class 3 ตาม AS 3566 โดยไม่ใช้การเชื่อมประกบด้วยความร้อน
+- ติดตั้งค้ำยันตามแนวขวางและแนวดิ่ง (Bracing System) ครบถ้วนตามแบบเพื่อป้องกันการบิดตัว

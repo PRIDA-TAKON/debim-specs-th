@@ -1,0 +1,19 @@
+id: CONCRETE_280KSC
+name: คอนกรีตผสมเสร็จกำลังอัดสูง 280 ksc (High Strength Concrete 280 ksc Cylinder)
+manufacturer: General Ready-Mix Batching Plants / CPAC / Boral / Insee
+category: concrete_structural
+masterformat: 03 30 00 - Cast-in-Place Concrete
+warranty_years: 10
+standards:
+  tis: มอก. 213-2552 (คอนกรีตผสมเสร็จ)
+  astm: ASTM C39 / ASTM C94
+general_properties:
+- กำลังอัดประลัยของคอนกรีตที่อายุ 28 วัน ไม่ต่ำกว่า 280 กก./ตร.ซม. (ทรงกระบอก 15x30 ซม.) หรือ 325 กก./ตร.ซม. (ลูกบาศก์)
+- ออกแบบสำหรับโครงสร้างเสารับน้ำหนักสูง คานช่วงยาว หรือโครงสร้างคอนกรีตอัดแรง
+- ค่า Slump อยู่ระหว่าง 10 ± 2.5 ซม. หรือ 15 ± 2.5 ซม. เมื่อใช้สารลดน้ำพิเศษ (Superplasticizer Type F/G ตาม ASTM C494)
+surface_preparation:
+- ตรวจสอบการผูกเหล็กเสริมและการยึดโยงค้ำยันให้ทนทานต่อแรงดันคอนกรีตสดอย่างมั่นคง
+- พรมน้ำรดแบบหล่อที่แห้งให้ชื้นพองตัว (กรณีไม้แบบ) ก่อนเทคอนกรีต
+application_system:
+- เทคอนกรีตเป็นชั้นๆ สม่ำเสมอหนาไม่เกิน 40-50 ซม. ต่อชั้น และจี้เขย่าประสานเนื้อคอนกรีตให้แนบแน่น
+- บ่มชื้นต่อเนื่องทันทีไม่น้อยกว่า 7 วัน หรือพ่นน้ำยาบ่มคอนกรีต (Curing Compound) ชนิดสลายตัวได้ตามมาตรฐาน ASTM C309

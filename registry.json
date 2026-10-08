@@ -1,0 +1,493 @@
+{
+  "schema_version": "1.0.0",
+  "repository": "PRIDA-TAKON/debim-specs-th",
+  "description": "คลังรายการประกอบแบบวัสดุก่อสร้างภาษาไทยแบบเปิด (Open Thai Declarative Architectural Specifications)",
+  "total_packages": 30,
+  "packages": [
+    {
+      "id": "CONCRETE_240KSC",
+      "name": "คอนกรีตผสมเสร็จกำลังอัด 240 ksc (Ready-Mixed Concrete 240 ksc Cylinder)",
+      "slug": "concrete-readymix-240ksc",
+      "division": "03-concrete",
+      "category": "concrete_structural",
+      "manufacturer": "General Ready-Mix Batching Plants / มาตรฐาน มยผ. และ วสท.",
+      "masterformat": "03 30 00 - Cast-in-Place Concrete",
+      "warranty_years": 10,
+      "standards": {
+        "tis": "มอก. 213-2552 (คอนกรีตผสมเสร็จ)",
+        "astm": "ASTM C39 / ASTM C94",
+        "dpt": "มยผ. 1101 ถึง 1103-52 (มาตรฐานงานคอนกรีตและคอนกรีตเสริมเหล็ก)"
+      },
+      "package_path": "packages/03-concrete/concrete-readymix-240ksc",
+      "spec_url": "https://raw.githubusercontent.com/PRIDA-TAKON/debim-specs-th/main/packages/03-concrete/concrete-readymix-240ksc/spec.yaml"
+    },
+    {
+      "id": "CONCRETE_280KSC",
+      "name": "คอนกรีตผสมเสร็จกำลังอัดสูง 280 ksc (High Strength Concrete 280 ksc Cylinder)",
+      "slug": "concrete-readymix-280ksc",
+      "division": "03-concrete",
+      "category": "concrete_structural",
+      "manufacturer": "General Ready-Mix Batching Plants / CPAC / Boral / Insee",
+      "masterformat": "03 30 00 - Cast-in-Place Concrete",
+      "warranty_years": 10,
+      "standards": {
+        "tis": "มอก. 213-2552 (คอนกรีตผสมเสร็จ)",
+        "astm": "ASTM C39 / ASTM C94"
+      },
+      "package_path": "packages/03-concrete/concrete-readymix-280ksc",
+      "spec_url": "https://raw.githubusercontent.com/PRIDA-TAKON/debim-specs-th/main/packages/03-concrete/concrete-readymix-280ksc/spec.yaml"
+    },
+    {
+      "id": "CONCRETE_LEAN_140KSC",
+      "name": "คอนกรีตหยาบรองก้นหลุม 140 ksc (Lean Concrete Sub-base 140 ksc Cylinder)",
+      "slug": "concrete-lean-140ksc",
+      "division": "03-concrete",
+      "category": "concrete_subbase",
+      "manufacturer": "General Ready-Mix Batching Plants",
+      "masterformat": "03 30 00 - Cast-in-Place Concrete",
+      "warranty_years": 5,
+      "standards": {
+        "tis": "มอก. 213-2552 (คอนกรีตผสมเสร็จ)",
+        "dpt": "มยผ. 1101-52"
+      },
+      "package_path": "packages/03-concrete/concrete-lean-140ksc",
+      "spec_url": "https://raw.githubusercontent.com/PRIDA-TAKON/debim-specs-th/main/packages/03-concrete/concrete-lean-140ksc/spec.yaml"
+    },
+    {
+      "id": "CONCRETE_CPAC_WATERPROOF",
+      "name": "คอนกรีตกันซึมผสมเสร็จ ซีแพค (CPAC Waterproof Ready-Mixed Concrete)",
+      "slug": "cpac-super-plus-waterproof",
+      "division": "03-concrete",
+      "category": "concrete_waterproof",
+      "manufacturer": "The Concrete Products and Aggregate Co., Ltd. (CPAC / SCG)",
+      "masterformat": "03 30 00 - Cast-in-Place Concrete",
+      "warranty_years": 10,
+      "standards": {
+        "tis": "มอก. 213-2552 (คอนกรีตผสมเสร็จ)",
+        "din": "DIN 1048 (Water Permeability Test under 5 bar pressure)"
+      },
+      "package_path": "packages/03-concrete/cpac-super-plus-waterproof",
+      "spec_url": "https://raw.githubusercontent.com/PRIDA-TAKON/debim-specs-th/main/packages/03-concrete/cpac-super-plus-waterproof/spec.yaml"
+    },
+    {
+      "id": "POST_TENSION_UNBONDED",
+      "name": "ระบบพื้นคอนกรีตอัดแรงชนิดดึงทีหลังแบบไร้แรงยึดเหนี่ยว (Unbonded Post-Tensioned Flat Plate System)",
+      "slug": "post-tension-unbonded",
+      "division": "03-concrete",
+      "category": "concrete_prestressed",
+      "manufacturer": "Thai Post-Tension Contractors Association / VSL / Freyssinet Standard",
+      "masterformat": "03 38 16 - Unbonded Post-Tensioned Concrete",
+      "warranty_years": 10,
+      "standards": {
+        "tis": "มอก. 420-2540 (ลวดเหล็กกล้าตีเกลียวสำหรับคอนกรีตอัดแรง)",
+        "astm": "ASTM A416 (Grade 270 Low Relaxation 7-wire Strand)",
+        "pti": "PTI Post-Tensioning Manual 6th Edition"
+      },
+      "package_path": "packages/03-concrete/post-tension-unbonded",
+      "spec_url": "https://raw.githubusercontent.com/PRIDA-TAKON/debim-specs-th/main/packages/03-concrete/post-tension-unbonded/spec.yaml"
+    },
+    {
+      "id": "CLAY_BRICK_TRADITIONAL",
+      "name": "อิฐมอญก่อสร้างตัน (Traditional Solid Red Clay Brick)",
+      "slug": "clay-brick-traditional",
+      "division": "04-masonry",
+      "category": "masonry_brick",
+      "manufacturer": "มาตรฐาน มยผ. และโรงงานผู้ผลิตอิฐมอญเผาแกร่งในประเทศ",
+      "masterformat": "04 21 00 - Clay Unit Masonry",
+      "warranty_years": 5,
+      "standards": {
+        "tis": "มอก. 77-2545 (อิฐก่อสร้างสามัญ)",
+        "dpt": "มยผ. 1106-52 (มาตรฐานงานก่ออิฐและฉาบปูน)"
+      },
+      "package_path": "packages/04-masonry/clay-brick-traditional",
+      "spec_url": "https://raw.githubusercontent.com/PRIDA-TAKON/debim-specs-th/main/packages/04-masonry/clay-brick-traditional/spec.yaml"
+    },
+    {
+      "id": "QCON_AAC_BLOCK_G4",
+      "name": "อิฐมวลเบาอบไอน้ำ คิวคอน เกรด G4 (Q-CON Autoclaved Aerated Concrete Block Class G4)",
+      "slug": "q-con-aac-block-g4",
+      "division": "04-masonry",
+      "category": "masonry_aac",
+      "manufacturer": "Quality Construction Products Public Co., Ltd. (Q-CON / SCG)",
+      "masterformat": "04 22 26 - Autoclaved Aerated Concrete Unit Masonry",
+      "warranty_years": 5,
+      "standards": {
+        "tis": "มอก. 1505-2541 (คอนกรีตมวลเบาแบบมีฟองอากาศอบไอน้ำความดันสูง)",
+        "astm": "ASTM C1693",
+        "bs": "BS EN 771-4"
+      },
+      "package_path": "packages/04-masonry/q-con-aac-block-g4",
+      "spec_url": "https://raw.githubusercontent.com/PRIDA-TAKON/debim-specs-th/main/packages/04-masonry/q-con-aac-block-g4/spec.yaml"
+    },
+    {
+      "id": "CONCRETE_BLOCK_HOLLOW",
+      "name": "คอนกรีตบล็อกกลวงไม่รับน้ำหนัก (Non-Load-Bearing Hollow Concrete Masonry Block)",
+      "slug": "concrete-block-hollow",
+      "division": "04-masonry",
+      "category": "masonry_block",
+      "manufacturer": "โรงงานผลิตคอนกรีตบล็อกมาตรฐาน มอก.",
+      "masterformat": "04 22 00 - Concrete Unit Masonry",
+      "warranty_years": 5,
+      "standards": {
+        "tis": "มอก. 57-2560 (บล็อกคอนกรีตไม่รับน้ำหนัก)",
+        "astm": "ASTM C129"
+      },
+      "package_path": "packages/04-masonry/concrete-block-hollow",
+      "spec_url": "https://raw.githubusercontent.com/PRIDA-TAKON/debim-specs-th/main/packages/04-masonry/concrete-block-hollow/spec.yaml"
+    },
+    {
+      "id": "REBAR_DEFORMED_SD40",
+      "name": "เหล็กเส้นเสริมคอนกรีตข้ออ้อย SD40 (Deformed Steel Bar Grade SD40)",
+      "slug": "rebar-deformed-sd40",
+      "division": "05-metals",
+      "category": "metals_rebar",
+      "manufacturer": "โรงงานผลิตเหล็กชั้นนำ มอก. เช่น บลจ.สยามยามาโตะ (SYS) / โรงงานทาทาสตีล (TATA) / มิลล์คอน (MILL)",
+      "masterformat": "03 21 00 - Reinforcing Steel",
+      "warranty_years": 10,
+      "standards": {
+        "tis": "มอก. 24-2559 (เหล็กเส้นเสริมคอนกรีต: เหล็กข้ออ้อย)",
+        "astm": "ASTM A615 (Grade 60 Equivalent)"
+      },
+      "package_path": "packages/05-metals/rebar-deformed-sd40",
+      "spec_url": "https://raw.githubusercontent.com/PRIDA-TAKON/debim-specs-th/main/packages/05-metals/rebar-deformed-sd40/spec.yaml"
+    },
+    {
+      "id": "REBAR_ROUND_RB9",
+      "name": "เหล็กเส้นกลมผิวเรียบ RB9 ชั้นคุณภาพ SR24 (Round Steel Bar Grade SR24 RB9)",
+      "slug": "rebar-round-rb9",
+      "division": "05-metals",
+      "category": "metals_rebar",
+      "manufacturer": "โรงงานผลิตเหล็กมาตรฐาน มอก. ในประเทศ",
+      "masterformat": "03 21 00 - Reinforcing Steel",
+      "warranty_years": 10,
+      "standards": {
+        "tis": "มอก. 20-2559 (เหล็กเส้นเสริมคอนกรีต: เหล็กเส้นกลม)"
+      },
+      "package_path": "packages/05-metals/rebar-round-rb9",
+      "spec_url": "https://raw.githubusercontent.com/PRIDA-TAKON/debim-specs-th/main/packages/05-metals/rebar-round-rb9/spec.yaml"
+    },
+    {
+      "id": "STRUCTURAL_STEEL_SYS_SM400",
+      "name": "เหล็กโครงสร้างรูปพรรณรีดร้อน เอสวายเอส เกรด SM400 (SYS Hot-Rolled Structural Steel SM400/SS400)",
+      "slug": "structural-steel-sys-sm400",
+      "division": "05-metals",
+      "category": "metals_structural",
+      "manufacturer": "Siam Yamato Steel Co., Ltd. (SYS Thailand)",
+      "masterformat": "05 12 00 - Structural Steel Framing",
+      "warranty_years": 20,
+      "standards": {
+        "tis": "มอก. 1227-2558 (เหล็กโครงสร้างรูปพรรณรีดร้อน)",
+        "jis": "JIS G 3106 (SM400) / JIS G 3101 (SS400)",
+        "astm": "ASTM A36 / A992"
+      },
+      "package_path": "packages/05-metals/structural-steel-sys-sm400",
+      "spec_url": "https://raw.githubusercontent.com/PRIDA-TAKON/debim-specs-th/main/packages/05-metals/structural-steel-sys-sm400/spec.yaml"
+    },
+    {
+      "id": "LIGHT_GAUGE_STEEL_TRUSS",
+      "name": "โครงหลังคาเหล็กกล้ากำลังสูงเคลือบกันสนิมกัลวาไนซ์ (Smart Truss Light Gauge High-Tensile Steel)",
+      "slug": "light-gauge-steel-roof-truss",
+      "division": "05-metals",
+      "category": "metals_roof_truss",
+      "manufacturer": "SCG Roofing / Lysaght / BlueScope",
+      "masterformat": "05 40 00 - Cold-Formed Metal Framing",
+      "warranty_years": 10,
+      "standards": {
+        "tis": "มอก. 2228-2548 (เหล็กกล้าแผ่นรีดเย็นเคลือบสังกะสี)",
+        "astm": "ASTM A792 (Grade G550)",
+        "as": "AS 1397"
+      },
+      "package_path": "packages/05-metals/light-gauge-steel-roof-truss",
+      "spec_url": "https://raw.githubusercontent.com/PRIDA-TAKON/debim-specs-th/main/packages/05-metals/light-gauge-steel-roof-truss/spec.yaml"
+    },
+    {
+      "id": "SCG_STAY_COOL_75MM",
+      "name": "ฉนวนกันความร้อนใยแก้ว เอสซีจี สเตย์คูล หนา 75 มม. (SCG Stay Cool Thermal Insulation 75mm Premium)",
+      "slug": "scg-stay-cool-75mm",
+      "division": "07-thermal-moisture",
+      "category": "thermal_insulation",
+      "manufacturer": "Siam Fiberglass Co., Ltd. (SCG)",
+      "masterformat": "07 21 00 - Thermal Insulation",
+      "warranty_years": 10,
+      "standards": {
+        "tis": "มอก. 486-2527 (ฉนวนใยแก้ว)",
+        "astm": "ASTM C518 / ASTM E84 (Class A Non-Combustible)"
+      },
+      "package_path": "packages/07-thermal-moisture/scg-stay-cool-75mm",
+      "spec_url": "https://raw.githubusercontent.com/PRIDA-TAKON/debim-specs-th/main/packages/07-thermal-moisture/scg-stay-cool-75mm/spec.yaml"
+    },
+    {
+      "id": "SIKA_BITUSEAL_MEMBRANE",
+      "name": "แผ่นกันซึมดัดแปลงบิทูเมนแบบเป่าไฟ ซิก้า บิทูซีล หนา 3 มม. (Sika BituSeal T-130 SG Torch-on Waterproofing Membrane)",
+      "slug": "sika-bituseal-membrane",
+      "division": "07-thermal-moisture",
+      "category": "moisture_waterproofing",
+      "manufacturer": "Sika (Thailand) Limited",
+      "masterformat": "07 52 16 - Styrene-Butadiene-Styrene (SBS) Modified Bituminous Membrane Roofing",
+      "warranty_years": 10,
+      "standards": {
+        "din": "DIN EN 13707 / DIN EN 13969",
+        "astm": "ASTM D6164"
+      },
+      "package_path": "packages/07-thermal-moisture/sika-bituseal-membrane",
+      "spec_url": "https://raw.githubusercontent.com/PRIDA-TAKON/debim-specs-th/main/packages/07-thermal-moisture/sika-bituseal-membrane/spec.yaml"
+    },
+    {
+      "id": "PU_WATERPROOFING_LIQUID",
+      "name": "ระบบกันซึมโพลียูรีเทนไร้รอยต่อชนิดทา (Liquid Applied Polyurethane Waterproofing Membrane)",
+      "slug": "polyurethane-waterproofing-liquid",
+      "division": "07-thermal-moisture",
+      "category": "moisture_waterproofing",
+      "manufacturer": "Sika / Lanko / Bostik / Crocodile",
+      "masterformat": "07 14 16 - Cold Fluid-Applied Waterproofing",
+      "warranty_years": 5,
+      "standards": {
+        "astm": "ASTM C836 (High Solids Cold Liquid-Applied Elastomeric Waterproofing)",
+        "bs": "BS EN 14891"
+      },
+      "package_path": "packages/07-thermal-moisture/polyurethane-waterproofing-liquid",
+      "spec_url": "https://raw.githubusercontent.com/PRIDA-TAKON/debim-specs-th/main/packages/07-thermal-moisture/polyurethane-waterproofing-liquid/spec.yaml"
+    },
+    {
+      "id": "BLUESCOPE_COLORBOND_SHEET",
+      "name": "แผ่นหลังคาเหล็กรีดลอน บลูสโคป คัลเลอร์บอนด์ (BlueScope Colorbond Clean Colorbond Steel Sheet 0.48mm TCT)",
+      "slug": "bluescope-colorbond-metal-sheet",
+      "division": "07-thermal-moisture",
+      "category": "thermal_roofing",
+      "manufacturer": "NS BlueScope (Thailand) Limited",
+      "masterformat": "07 41 13 - Metal Roof Panels",
+      "warranty_years": 25,
+      "standards": {
+        "tis": "มอก. 2753-2559 (เหล็กกล้าแผ่นรีดเย็นเคลือบโลหะผสมสังกะสี-อะลูมิเนียมเคลือบสี)",
+        "as": "AS 1397 / AS 2728"
+      },
+      "package_path": "packages/07-thermal-moisture/bluescope-colorbond-metal-sheet",
+      "spec_url": "https://raw.githubusercontent.com/PRIDA-TAKON/debim-specs-th/main/packages/07-thermal-moisture/bluescope-colorbond-metal-sheet/spec.yaml"
+    },
+    {
+      "id": "ALUMINUM_POWDER_COAT",
+      "name": "กรอบบานประตูหน้าต่างอะลูมิเนียมอบสีพาวเดอร์โค้ท (Powder Coated Architectural Aluminum Framing System)",
+      "slug": "aluminum-powder-coat-framing",
+      "division": "08-openings",
+      "category": "openings_aluminum",
+      "manufacturer": "มาตรฐาน มอก. เช่น ธาราทอง / เมืองทอง / Schüco / TOSTEM",
+      "masterformat": "08 41 13 - Aluminum-Framed Entrances and Storefronts",
+      "warranty_years": 10,
+      "standards": {
+        "tis": "มอก. 284-2560 (อะลูมิเนียมอัลลอยอัดขึ้นรูปสำหรับงานสถาปัตยกรรม)",
+        "aama": "AAMA 2604 (High Performance Organic Coatings on Aluminum Extrusions)"
+      },
+      "package_path": "packages/08-openings/aluminum-powder-coat-framing",
+      "spec_url": "https://raw.githubusercontent.com/PRIDA-TAKON/debim-specs-th/main/packages/08-openings/aluminum-powder-coat-framing/spec.yaml"
+    },
+    {
+      "id": "GLASS_TEMPERED_CLEAR_10MM",
+      "name": "กระจกนิรภัยเทมเปอร์ใส หนา 10 มม. (10mm Clear Fully Tempered Safety Glass)",
+      "slug": "glass-tempered-clear-10mm",
+      "division": "08-openings",
+      "category": "openings_glass",
+      "manufacturer": "AGC Glass Thailand / Guardian Glass / Thai-German Specialty Glass (TGSG)",
+      "masterformat": "08 80 00 - Glazing",
+      "warranty_years": 5,
+      "standards": {
+        "tis": "มอก. 965-2560 (กระจกเทมเปอร์)",
+        "astm": "ASTM C1048 (Kind FT Fully Tempered Flat Glass)",
+        "ansi": "ANSI Z97.1 (Safety Glazing Materials)"
+      },
+      "package_path": "packages/08-openings/glass-tempered-clear-10mm",
+      "spec_url": "https://raw.githubusercontent.com/PRIDA-TAKON/debim-specs-th/main/packages/08-openings/glass-tempered-clear-10mm/spec.yaml"
+    },
+    {
+      "id": "GLASS_LAMINATED_ACOUSTIC",
+      "name": "กระจกนิรภัยลามิเนตกันเสียงและความปลอดภัย (Acoustic Safety Laminated Glass 6+0.76PVB+6mm)",
+      "slug": "glass-laminated-acoustic-safety",
+      "division": "08-openings",
+      "category": "openings_glass",
+      "manufacturer": "AGC Glass Thailand / Saint-Gobain Glass / TGSG",
+      "masterformat": "08 80 00 - Glazing",
+      "warranty_years": 5,
+      "standards": {
+        "tis": "มอก. 1222-2560 (กระจกลามิเนต)",
+        "astm": "ASTM C1172"
+      },
+      "package_path": "packages/08-openings/glass-laminated-acoustic-safety",
+      "spec_url": "https://raw.githubusercontent.com/PRIDA-TAKON/debim-specs-th/main/packages/08-openings/glass-laminated-acoustic-safety/spec.yaml"
+    },
+    {
+      "id": "SOLID_TEAK_DOOR",
+      "name": "บานประตูไม้สักทองจริงคัดพิเศษ (Solid Natural Golden Teak Architectural Door)",
+      "slug": "solid-teak-door",
+      "division": "08-openings",
+      "category": "openings_wood",
+      "manufacturer": "Siam Timber Fabricators / ช่างไม้มาตรฐาน มอก.",
+      "masterformat": "08 14 00 - Wood Doors",
+      "warranty_years": 5,
+      "standards": {
+        "tis": "มอก. 267-2521 (ไม้สักแปรรูป)",
+        "fsc": "Forest Stewardship Council (FSC Certified)"
+      },
+      "package_path": "packages/08-openings/solid-teak-door",
+      "spec_url": "https://raw.githubusercontent.com/PRIDA-TAKON/debim-specs-th/main/packages/08-openings/solid-teak-door/spec.yaml"
+    },
+    {
+      "id": "TOA_SUPERSHIELD_EXT",
+      "name": "สีน้ำอะคริลิกแท้ 100% สำหรับทาภายนอกอาคาร (TOA SuperShield Titanium Exterior Paint)",
+      "slug": "toa-supershield-exterior",
+      "division": "09-finishes",
+      "category": "finishes_paint",
+      "manufacturer": "TOA Paint (Thailand) Public Company Limited",
+      "masterformat": "09 91 13 - Exterior Painting",
+      "warranty_years": 15,
+      "standards": {
+        "tis": "มอก. 2321-2564 (สีอิมัลชันทนสภาวะอากาศ)",
+        "astm": "ASTM D4587 / ASTM D3359"
+      },
+      "package_path": "packages/09-finishes/toa-supershield-exterior",
+      "spec_url": "https://raw.githubusercontent.com/PRIDA-TAKON/debim-specs-th/main/packages/09-finishes/toa-supershield-exterior/spec.yaml"
+    },
+    {
+      "id": "TOA_4SEASONS_INT",
+      "name": "สีน้ำอะคริลิกสำหรับทาภายในอาคาร ทีโอเอ โฟร์ซีซั่นส์ (TOA 4Seasons Acrylic Emulsion Interior)",
+      "slug": "toa-4-seasons-interior",
+      "division": "09-finishes",
+      "category": "finishes_paint",
+      "manufacturer": "TOA Paint (Thailand) Public Company Limited",
+      "masterformat": "09 91 23 - Interior Painting",
+      "warranty_years": 8,
+      "standards": {
+        "tis": "มอก. 272-2549 (สีอิมัลชันใช้งานทั่วไป)"
+      },
+      "package_path": "packages/09-finishes/toa-4-seasons-interior",
+      "spec_url": "https://raw.githubusercontent.com/PRIDA-TAKON/debim-specs-th/main/packages/09-finishes/toa-4-seasons-interior/spec.yaml"
+    },
+    {
+      "id": "COTTO_PORCELAIN_60X60",
+      "name": "กระเบื้องพอร์ซเลนเคลือบผิวด้าน คอตโต้ 60x60 ซม. (COTTO Glazed Porcelain Tile 60x60 cm Matte)",
+      "slug": "cotto-porcelain-tile-60x60",
+      "division": "09-finishes",
+      "category": "finishes_tiles",
+      "manufacturer": "SCG Ceramics Public Co., Ltd. (COTTO)",
+      "masterformat": "09 30 13 - Ceramic Tiling",
+      "warranty_years": 5,
+      "standards": {
+        "tis": "มอก. 2508-2555 (กระเบื้องเซรามิก)",
+        "iso": "ISO 13006 (Group BIa Water Absorption <= 0.5%)",
+        "din": "DIN 51130 (Slip Resistance Class R10)"
+      },
+      "package_path": "packages/09-finishes/cotto-porcelain-tile-60x60",
+      "spec_url": "https://raw.githubusercontent.com/PRIDA-TAKON/debim-specs-th/main/packages/09-finishes/cotto-porcelain-tile-60x60/spec.yaml"
+    },
+    {
+      "id": "SCG_SMARTBOARD_4MM",
+      "name": "แผ่นไฟเบอร์ซีเมนต์ฝ้าเพดาน เอสซีจี สมาร์ทบอร์ด หนา 4 มม. (SCG Smartboard Fiber Cement Ceiling Board 4mm)",
+      "slug": "scg-smartboard-ceiling-4mm",
+      "division": "09-finishes",
+      "category": "finishes_ceiling",
+      "manufacturer": "The Siam Fibre-Cement Co., Ltd. (SCG)",
+      "masterformat": "09 51 00 - Acoustical Ceilings / Fiber Cement Ceilings",
+      "warranty_years": 10,
+      "standards": {
+        "tis": "มอก. 1427-2561 (แผ่นไฟเบอร์ซีเมนต์)",
+        "astm": "ASTM C1186 (Grade I)"
+      },
+      "package_path": "packages/09-finishes/scg-smartboard-ceiling-4mm",
+      "spec_url": "https://raw.githubusercontent.com/PRIDA-TAKON/debim-specs-th/main/packages/09-finishes/scg-smartboard-ceiling-4mm/spec.yaml"
+    },
+    {
+      "id": "GYPROC_GYPSUM_9MM",
+      "name": "แผ่นยิปซัมบอร์ด ยิปรอค หนา 9 มม. ขอบลาด (Gyproc Standard Gypsum Plasterboard 9mm Tapered Edge)",
+      "slug": "gyproc-gypsum-board-9mm",
+      "division": "09-finishes",
+      "category": "finishes_drywall",
+      "manufacturer": "Thai Gypsum Products Public Co., Ltd. (Saint-Gobain Gyproc)",
+      "masterformat": "09 29 00 - Gypsum Board",
+      "warranty_years": 5,
+      "standards": {
+        "tis": "มอก. 188-2547 (แผ่นยิปซัม)",
+        "astm": "ASTM C1396",
+        "bs": "BS EN 520"
+      },
+      "package_path": "packages/09-finishes/gyproc-gypsum-board-9mm",
+      "spec_url": "https://raw.githubusercontent.com/PRIDA-TAKON/debim-specs-th/main/packages/09-finishes/gyproc-gypsum-board-9mm/spec.yaml"
+    },
+    {
+      "id": "SCG_PVC_CLASS_8_5",
+      "name": "ท่อพีวีซีแข็งสำหรับงานระบายน้ำเสียและระบายอากาศ เอสซีจี ชั้น 8.5 (SCG Rigid PVC Pipe Class 8.5 Drainage & Vent)",
+      "slug": "scg-pvc-pipe-class-8-5",
+      "division": "22-plumbing",
+      "category": "plumbing_drainage",
+      "manufacturer": "Thai Pipe Industry / Nawaplastic Industries (SCG)",
+      "masterformat": "22 13 16 - Sanitary Waste and Vent Piping",
+      "warranty_years": 10,
+      "standards": {
+        "tis": "มอก. 17-2532 (ท่อพอลิไวนิลคลอไรด์แข็งสำหรับใช้เป็นท่อน้ำดื่มและระบายน้ำ)"
+      },
+      "package_path": "packages/22-plumbing/scg-pvc-pipe-class-8-5",
+      "spec_url": "https://raw.githubusercontent.com/PRIDA-TAKON/debim-specs-th/main/packages/22-plumbing/scg-pvc-pipe-class-8-5/spec.yaml"
+    },
+    {
+      "id": "SCG_PVC_CLASS_13_5",
+      "name": "ท่อพีวีซีแข็งสำหรับงานส่งน้ำประปารับแรงดัน เอสซีจี ชั้น 13.5 (SCG Rigid PVC Pipe Class 13.5 Potable Water Supply)",
+      "slug": "scg-pvc-pipe-class-13-5",
+      "division": "22-plumbing",
+      "category": "plumbing_water_supply",
+      "manufacturer": "Thai Pipe Industry / Nawaplastic Industries (SCG)",
+      "masterformat": "22 11 16 - Domestic Water Piping",
+      "warranty_years": 10,
+      "standards": {
+        "tis": "มอก. 17-2532 (ท่อพอลิไวนิลคลอไรด์แข็งสำหรับน้ำดื่ม)"
+      },
+      "package_path": "packages/22-plumbing/scg-pvc-pipe-class-13-5",
+      "spec_url": "https://raw.githubusercontent.com/PRIDA-TAKON/debim-specs-th/main/packages/22-plumbing/scg-pvc-pipe-class-13-5/spec.yaml"
+    },
+    {
+      "id": "COTTO_WC_DUAL_FLUSH",
+      "name": "โถสุขภัณฑ์นั่งราบประหยัดน้ำ คอตโต้ ระบบดูอัลฟลัช (COTTO Dual Flush Water Closet 3/4.5 Liters)",
+      "slug": "cotto-water-closet-dual-flush",
+      "division": "22-plumbing",
+      "category": "plumbing_fixtures",
+      "manufacturer": "SCG Ceramics Public Co., Ltd. (COTTO)",
+      "masterformat": "22 40 00 - Plumbing Fixtures",
+      "warranty_years": 5,
+      "standards": {
+        "tis": "มอก. 792-2554 (เครื่องสุขภัณฑ์เซรามิก: โถส้วม)",
+        "water_sense": "ฉลากเขียวประหยัดน้ำเบอร์ 5"
+      },
+      "package_path": "packages/22-plumbing/cotto-water-closet-dual-flush",
+      "spec_url": "https://raw.githubusercontent.com/PRIDA-TAKON/debim-specs-th/main/packages/22-plumbing/cotto-water-closet-dual-flush/spec.yaml"
+    },
+    {
+      "id": "BCC_CABLE_THW",
+      "name": "สายไฟฟ้าตัวนำทองแดงหุ้มฉนวน พีวีซี 60227 IEC 01 THW (Bangkok Cable Copper Wire 60227 IEC 01 THW 450/750V)",
+      "slug": "bangkok-cable-thw",
+      "division": "26-electrical",
+      "category": "electrical_wiring",
+      "manufacturer": "Bangkok Cable Co., Ltd. (BCC) / Phelps Dodge Thailand",
+      "masterformat": "26 05 19 - Low-Voltage Electrical Power Conductors and Cables",
+      "warranty_years": 10,
+      "standards": {
+        "tis": "มอก. 11-2553 เล่ม 3 (สายไฟฟ้าหุ้มฉนวนพอลิไวนิลคลอไรด์ แรงดันใช้งานไม่เกิน 450/750 โวลต์)",
+        "iec": "IEC 60227-3",
+        "eit": "มาตรฐานการติดตั้งทางไฟฟ้าสำหรับประเทศไทย (วสท.)"
+      },
+      "package_path": "packages/26-electrical/bangkok-cable-thw",
+      "spec_url": "https://raw.githubusercontent.com/PRIDA-TAKON/debim-specs-th/main/packages/26-electrical/bangkok-cable-thw/spec.yaml"
+    },
+    {
+      "id": "PANASONIC_WIDE_SERIES",
+      "name": "ชุดสวิตช์และเต้ารับไฟฟ้ามีกราวด์ พานาโซนิค ไวด์ซีรีส์ (Panasonic Wide Series Switches and Receptacles)",
+      "slug": "panasonic-wide-series",
+      "division": "26-electrical",
+      "category": "electrical_devices",
+      "manufacturer": "Panasonic Life Solutions (Thailand) Co., Ltd.",
+      "masterformat": "26 27 26 - Wiring Devices",
+      "warranty_years": 5,
+      "standards": {
+        "tis": "มอก. 824-2551 (สวิตช์ไฟฟ้า) / มอก. 166-2549 (เต้ารับและเต้าเสียบ)",
+        "iec": "IEC 60669-1 / IEC 60884-1"
+      },
+      "package_path": "packages/26-electrical/panasonic-wide-series",
+      "spec_url": "https://raw.githubusercontent.com/PRIDA-TAKON/debim-specs-th/main/packages/26-electrical/panasonic-wide-series/spec.yaml"
+    }
+  ]
+}
